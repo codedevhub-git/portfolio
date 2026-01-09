@@ -32,10 +32,10 @@ const projectData = {
         description: `
             <h2>Ramos Elite Scape - Hardscape & Landscaping</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/ramos-elite/img2.webp" alt="Ramos Elite Scape Screenshot 2">
-                <img src="../assets/images/projects/ramos-elite/img3.webp" alt="Ramos Elite Scape Screenshot 3">
-                <img src="../assets/images/projects/ramos-elite/img4.webp" alt="Ramos Elite Scape Screenshot 4">
-                <img src="../assets/images/projects/ramos-elite/img5.webp" alt="Ramos Elite Scape Screenshot 5">
+                <img src="assets/images/projects/ramos-elite/img2.webp" alt="Ramos Elite Scape Screenshot 2">
+                <img src="assets/images/projects/ramos-elite/img3.webp" alt="Ramos Elite Scape Screenshot 3">
+                <img src="assets/images/projects/ramos-elite/img4.webp" alt="Ramos Elite Scape Screenshot 4">
+                <img src="assets/images/projects/ramos-elite/img5.webp" alt="Ramos Elite Scape Screenshot 5">
             </div>
             <h3>Project Overview</h3>
             <p>Professional website for a hardscape and landscaping business in Statesville, NC. Built to showcase their services, portfolio, and contact information with a clean, modern design.</p>
@@ -61,10 +61,10 @@ const projectData = {
         descriptionEs: `
             <h2>Ramos Elite Scape - Hardscape & Paisajismo</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/ramos-elite/img2.webp" alt="Captura de pantalla de Ramos Elite Scape 2">
-                <img src="../assets/images/projects/ramos-elite/img3.webp" alt="Captura de pantalla de Ramos Elite Scape 3">
-                <img src="../assets/images/projects/ramos-elite/img4.webp" alt="Captura de pantalla de Ramos Elite Scape 4">
-                <img src="../assets/images/projects/ramos-elite/img5.webp" alt="Captura de pantalla de Ramos Elite Scape 5">
+                <img src="assets/images/projects/ramos-elite/img2.webp" alt="Captura de pantalla de Ramos Elite Scape 2">
+                <img src="assets/images/projects/ramos-elite/img3.webp" alt="Captura de pantalla de Ramos Elite Scape 3">
+                <img src="assets/images/projects/ramos-elite/img4.webp" alt="Captura de pantalla de Ramos Elite Scape 4">
+                <img src="assets/images/projects/ramos-elite/img5.webp" alt="Captura de pantalla de Ramos Elite Scape 5">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Sitio web profesional para un negocio de hardscape y paisajismo en Statesville, NC. Construido para mostrar sus servicios, portafolio e información de contacto con un diseño limpio y moderno.</p>
@@ -94,13 +94,13 @@ const projectData = {
         description: `
             <h2>Trak30 - Privacy-Focused Budget Tracker</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/trak30/img1.webp" alt="Trak30 Screenshot 1">
-                <img src="../assets/images/projects/trak30/img2.webp" alt="Trak30 Screenshot 2">
-                <img src="../assets/images/projects/trak30/img3.webp" alt="Trak30 Screenshot 3">
-                <img src="../assets/images/projects/trak30/img4.webp" alt="Trak30 Screenshot 4">
-                <img src="../assets/images/projects/trak30/img5.webp" alt="Trak30 Screenshot 5">
-                <img src="../assets/images/projects/trak30/img6.webp" alt="Trak30 Screenshot 6">
-                <img src="../assets/images/projects/trak30/img7.webp" alt="Trak30 Screenshot 7">
+                <img src="assets/images/projects/trak30/img1.webp" alt="Trak30 Screenshot 1">
+                <img src="assets/images/projects/trak30/img2.webp" alt="Trak30 Screenshot 2">
+                <img src="assets/images/projects/trak30/img3.webp" alt="Trak30 Screenshot 3">
+                <img src="assets/images/projects/trak30/img4.webp" alt="Trak30 Screenshot 4">
+                <img src="assets/images/projects/trak30/img5.webp" alt="Trak30 Screenshot 5">
+                <img src="assets/images/projects/trak30/img6.webp" alt="Trak30 Screenshot 6">
+                <img src="assets/images/projects/trak30/img7.webp" alt="Trak30 Screenshot 7">
             </div>
             <h3>Project Overview</h3>
             <p>A comprehensive personal finance tracking application built for people who want accountability without compromising privacy. Trak30 is a complete SaaS product with no email signup required, no bank linking, and zero tracking — just you and your money.</p>
@@ -184,13 +184,13 @@ const projectData = {
         descriptionEs: `
             <h2>Trak30 - Rastreador de Presupuesto Enfocado en Privacidad</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/trak30/img1.webp" alt="Captura de pantalla de Trak30 1">
-                <img src="../assets/images/projects/trak30/img2.webp" alt="Captura de pantalla de Trak30 2">
-                <img src="../assets/images/projects/trak30/img3.webp" alt="Captura de pantalla de Trak30 3">
-                <img src="../assets/images/projects/trak30/img4.webp" alt="Captura de pantalla de Trak30 4">
-                <img src="../assets/images/projects/trak30/img5.webp" alt="Captura de pantalla de Trak30 5">
-                <img src="../assets/images/projects/trak30/img6.webp" alt="Captura de pantalla de Trak30 6">
-                <img src="../assets/images/projects/trak30/img7.webp" alt="Captura de pantalla de Trak30 7">
+                <img src="assets/images/projects/trak30/img1.webp" alt="Captura de pantalla de Trak30 1">
+                <img src="assets/images/projects/trak30/img2.webp" alt="Captura de pantalla de Trak30 2">
+                <img src="assets/images/projects/trak30/img3.webp" alt="Captura de pantalla de Trak30 3">
+                <img src="assets/images/projects/trak30/img4.webp" alt="Captura de pantalla de Trak30 4">
+                <img src="assets/images/projects/trak30/img5.webp" alt="Captura de pantalla de Trak30 5">
+                <img src="assets/images/projects/trak30/img6.webp" alt="Captura de pantalla de Trak30 6">
+                <img src="assets/images/projects/trak30/img7.webp" alt="Captura de pantalla de Trak30 7">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Una aplicación completa de seguimiento de finanzas personales construida para personas que quieren responsabilidad sin comprometer su privacidad. Trak30 es un producto SaaS completo sin registro de email requerido, sin vincular bancos, y cero rastreo — solo tú y tu dinero.</p>
@@ -278,21 +278,21 @@ const projectData = {
         description: `
             <h2>Rucker Dentistry - Dental Practice Website</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/rucker-dentistry/img1.webp" alt="Rucker Dentistry Screenshot 1">
-                <img src="../assets/images/projects/rucker-dentistry/img2.webp" alt="Rucker Dentistry Screenshot 2">
-                <img src="../assets/images/projects/rucker-dentistry/img3.webp" alt="Rucker Dentistry Screenshot 3">
-                <img src="../assets/images/projects/rucker-dentistry/img4.webp" alt="Rucker Dentistry Screenshot 4">
-                <img src="../assets/images/projects/rucker-dentistry/img5.webp" alt="Rucker Dentistry Screenshot 5">
-                <img src="../assets/images/projects/rucker-dentistry/img6.webp" alt="Rucker Dentistry Screenshot 6">
-                <img src="../assets/images/projects/rucker-dentistry/img7.webp" alt="Rucker Dentistry Screenshot 7">
-                <img src="../assets/images/projects/rucker-dentistry/img8.webp" alt="Rucker Dentistry Screenshot 8">
-                <img src="../assets/images/projects/rucker-dentistry/img9.webp" alt="Rucker Dentistry Screenshot 9">
-                <img src="../assets/images/projects/rucker-dentistry/img10.webp" alt="Rucker Dentistry Screenshot 10">
-                <img src="../assets/images/projects/rucker-dentistry/img11.webp" alt="Rucker Dentistry Screenshot 11">
-                <img src="../assets/images/projects/rucker-dentistry/img12.webp" alt="Rucker Dentistry Screenshot 12">
-                <img src="../assets/images/projects/rucker-dentistry/img13.webp" alt="Rucker Dentistry Screenshot 13">
-                <img src="../assets/images/projects/rucker-dentistry/img14.webp" alt="Rucker Dentistry Screenshot 14">
-                <img src="../assets/images/projects/rucker-dentistry/img15.webp" alt="Rucker Dentistry Screenshot 15">
+                <img src="assets/images/projects/rucker-dentistry/img1.webp" alt="Rucker Dentistry Screenshot 1">
+                <img src="assets/images/projects/rucker-dentistry/img2.webp" alt="Rucker Dentistry Screenshot 2">
+                <img src="assets/images/projects/rucker-dentistry/img3.webp" alt="Rucker Dentistry Screenshot 3">
+                <img src="assets/images/projects/rucker-dentistry/img4.webp" alt="Rucker Dentistry Screenshot 4">
+                <img src="assets/images/projects/rucker-dentistry/img5.webp" alt="Rucker Dentistry Screenshot 5">
+                <img src="assets/images/projects/rucker-dentistry/img6.webp" alt="Rucker Dentistry Screenshot 6">
+                <img src="assets/images/projects/rucker-dentistry/img7.webp" alt="Rucker Dentistry Screenshot 7">
+                <img src="assets/images/projects/rucker-dentistry/img8.webp" alt="Rucker Dentistry Screenshot 8">
+                <img src="assets/images/projects/rucker-dentistry/img9.webp" alt="Rucker Dentistry Screenshot 9">
+                <img src="assets/images/projects/rucker-dentistry/img10.webp" alt="Rucker Dentistry Screenshot 10">
+                <img src="assets/images/projects/rucker-dentistry/img11.webp" alt="Rucker Dentistry Screenshot 11">
+                <img src="assets/images/projects/rucker-dentistry/img12.webp" alt="Rucker Dentistry Screenshot 12">
+                <img src="assets/images/projects/rucker-dentistry/img13.webp" alt="Rucker Dentistry Screenshot 13">
+                <img src="assets/images/projects/rucker-dentistry/img14.webp" alt="Rucker Dentistry Screenshot 14">
+                <img src="assets/images/projects/rucker-dentistry/img15.webp" alt="Rucker Dentistry Screenshot 15">
             </div>
             <h3>Project Overview</h3>
             <p>Professional website for a dental practice in Lancaster, SC. Designed to provide patients with easy access to information about services, appointments, and contact details.</p>
@@ -318,21 +318,21 @@ const projectData = {
         descriptionEs: `
             <h2>Rucker Dentistry - Sitio Web de Consultorio Dental</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/rucker-dentistry/img1.webp" alt="Captura de pantalla de Rucker Dentistry 1">
-                <img src="../assets/images/projects/rucker-dentistry/img2.webp" alt="Captura de pantalla de Rucker Dentistry 2">
-                <img src="../assets/images/projects/rucker-dentistry/img3.webp" alt="Captura de pantalla de Rucker Dentistry 3">
-                <img src="../assets/images/projects/rucker-dentistry/img4.webp" alt="Captura de pantalla de Rucker Dentistry 4">
-                <img src="../assets/images/projects/rucker-dentistry/img5.webp" alt="Captura de pantalla de Rucker Dentistry 5">
-                <img src="../assets/images/projects/rucker-dentistry/img6.webp" alt="Captura de pantalla de Rucker Dentistry 6">
-                <img src="../assets/images/projects/rucker-dentistry/img7.webp" alt="Captura de pantalla de Rucker Dentistry 7">
-                <img src="../assets/images/projects/rucker-dentistry/img8.webp" alt="Captura de pantalla de Rucker Dentistry 8">
-                <img src="../assets/images/projects/rucker-dentistry/img9.webp" alt="Captura de pantalla de Rucker Dentistry 9">
-                <img src="../assets/images/projects/rucker-dentistry/img10.webp" alt="Captura de pantalla de Rucker Dentistry 10">
-                <img src="../assets/images/projects/rucker-dentistry/img11.webp" alt="Captura de pantalla de Rucker Dentistry 11">
-                <img src="../assets/images/projects/rucker-dentistry/img12.webp" alt="Captura de pantalla de Rucker Dentistry 12">
-                <img src="../assets/images/projects/rucker-dentistry/img13.webp" alt="Captura de pantalla de Rucker Dentistry 13">
-                <img src="../assets/images/projects/rucker-dentistry/img14.webp" alt="Captura de pantalla de Rucker Dentistry 14">
-                <img src="../assets/images/projects/rucker-dentistry/img15.webp" alt="Captura de pantalla de Rucker Dentistry 15">
+                <img src="assets/images/projects/rucker-dentistry/img1.webp" alt="Captura de pantalla de Rucker Dentistry 1">
+                <img src="assets/images/projects/rucker-dentistry/img2.webp" alt="Captura de pantalla de Rucker Dentistry 2">
+                <img src="assets/images/projects/rucker-dentistry/img3.webp" alt="Captura de pantalla de Rucker Dentistry 3">
+                <img src="assets/images/projects/rucker-dentistry/img4.webp" alt="Captura de pantalla de Rucker Dentistry 4">
+                <img src="assets/images/projects/rucker-dentistry/img5.webp" alt="Captura de pantalla de Rucker Dentistry 5">
+                <img src="assets/images/projects/rucker-dentistry/img6.webp" alt="Captura de pantalla de Rucker Dentistry 6">
+                <img src="assets/images/projects/rucker-dentistry/img7.webp" alt="Captura de pantalla de Rucker Dentistry 7">
+                <img src="assets/images/projects/rucker-dentistry/img8.webp" alt="Captura de pantalla de Rucker Dentistry 8">
+                <img src="assets/images/projects/rucker-dentistry/img9.webp" alt="Captura de pantalla de Rucker Dentistry 9">
+                <img src="assets/images/projects/rucker-dentistry/img10.webp" alt="Captura de pantalla de Rucker Dentistry 10">
+                <img src="assets/images/projects/rucker-dentistry/img11.webp" alt="Captura de pantalla de Rucker Dentistry 11">
+                <img src="assets/images/projects/rucker-dentistry/img12.webp" alt="Captura de pantalla de Rucker Dentistry 12">
+                <img src="assets/images/projects/rucker-dentistry/img13.webp" alt="Captura de pantalla de Rucker Dentistry 13">
+                <img src="assets/images/projects/rucker-dentistry/img14.webp" alt="Captura de pantalla de Rucker Dentistry 14">
+                <img src="assets/images/projects/rucker-dentistry/img15.webp" alt="Captura de pantalla de Rucker Dentistry 15">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Sitio web profesional para un consultorio dental en Lancaster, SC. Diseñado para proporcionar a los pacientes acceso fácil a información sobre servicios, citas y detalles de contacto.</p>
@@ -362,10 +362,10 @@ const projectData = {
         description: `
             <h2>Honey & Milk Lactation - Consultation Services</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/honey-milk/img2.webp" alt="Honey & Milk Screenshot 2">
-                <img src="../assets/images/projects/honey-milk/img4.webp" alt="Honey & Milk Screenshot 4">
-                <img src="../assets/images/projects/honey-milk/img5.webp" alt="Honey & Milk Screenshot 5">
-                <img src="../assets/images/projects/honey-milk/img11.webp" alt="Honey & Milk Screenshot 11">
+                <img src="assets/images/projects/honey-milk/img2.webp" alt="Honey & Milk Screenshot 2">
+                <img src="assets/images/projects/honey-milk/img4.webp" alt="Honey & Milk Screenshot 4">
+                <img src="assets/images/projects/honey-milk/img5.webp" alt="Honey & Milk Screenshot 5">
+                <img src="assets/images/projects/honey-milk/img11.webp" alt="Honey & Milk Screenshot 11">
             </div>
             <h3>Project Overview</h3>
             <p>Website for a lactation consulting service in Lancaster, SC. Built to help new mothers find support and schedule consultations.</p>
@@ -391,10 +391,10 @@ const projectData = {
         descriptionEs: `
             <h2>Honey & Milk Lactation - Servicios de Consultoría</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/honey-milk/img2.webp" alt="Captura de pantalla de Honey & Milk 2">
-                <img src="../assets/images/projects/honey-milk/img4.webp" alt="Captura de pantalla de Honey & Milk 4">
-                <img src="../assets/images/projects/honey-milk/img5.webp" alt="Captura de pantalla de Honey & Milk 5">
-                <img src="../assets/images/projects/honey-milk/img11.webp" alt="Captura de pantalla de Honey & Milk 11">
+                <img src="assets/images/projects/honey-milk/img2.webp" alt="Captura de pantalla de Honey & Milk 2">
+                <img src="assets/images/projects/honey-milk/img4.webp" alt="Captura de pantalla de Honey & Milk 4">
+                <img src="assets/images/projects/honey-milk/img5.webp" alt="Captura de pantalla de Honey & Milk 5">
+                <img src="assets/images/projects/honey-milk/img11.webp" alt="Captura de pantalla de Honey & Milk 11">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Sitio web para un servicio de consultoría de lactancia en Lancaster, SC. Construido para ayudar a nuevas madres a encontrar apoyo y programar consultas.</p>
@@ -424,13 +424,13 @@ const projectData = {
         description: `
             <h2>Gyderne - AI-Powered Education Platform</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/gyderne/img1.webp" alt="Gyderne Screenshot 1">
-                <img src="../assets/images/projects/gyderne/img2.webp" alt="Gyderne Screenshot 2">
-                <img src="../assets/images/projects/gyderne/img3.webp" alt="Gyderne Screenshot 3">
-                <img src="../assets/images/projects/gyderne/img4.webp" alt="Gyderne Screenshot 4">
-                <img src="../assets/images/projects/gyderne/img5.webp" alt="Gyderne Screenshot 5">
-                <img src="../assets/images/projects/gyderne/img6.webp" alt="Gyderne Screenshot 6">
-                <img src="../assets/images/projects/gyderne/img7.webp" alt="Gyderne Screenshot 7">
+                <img src="assets/images/projects/gyderne/img1.webp" alt="Gyderne Screenshot 1">
+                <img src="assets/images/projects/gyderne/img2.webp" alt="Gyderne Screenshot 2">
+                <img src="assets/images/projects/gyderne/img3.webp" alt="Gyderne Screenshot 3">
+                <img src="assets/images/projects/gyderne/img4.webp" alt="Gyderne Screenshot 4">
+                <img src="assets/images/projects/gyderne/img5.webp" alt="Gyderne Screenshot 5">
+                <img src="assets/images/projects/gyderne/img6.webp" alt="Gyderne Screenshot 6">
+                <img src="assets/images/projects/gyderne/img7.webp" alt="Gyderne Screenshot 7">
             </div>
             <h3>Project Overview</h3>
             <p>A comprehensive AI-powered education platform that has been in production for over 5 years. Designed to help students learn mathematics with step-by-step reasoning and peer review.</p>
@@ -456,13 +456,13 @@ const projectData = {
         descriptionEs: `
             <h2>Gyderne - Plataforma Educativa con IA</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/gyderne/img1.webp" alt="Captura de pantalla de Gyderne 1">
-                <img src="../assets/images/projects/gyderne/img2.webp" alt="Captura de pantalla de Gyderne 2">
-                <img src="../assets/images/projects/gyderne/img3.webp" alt="Captura de pantalla de Gyderne 3">
-                <img src="../assets/images/projects/gyderne/img4.webp" alt="Captura de pantalla de Gyderne 4">
-                <img src="../assets/images/projects/gyderne/img5.webp" alt="Captura de pantalla de Gyderne 5">
-                <img src="../assets/images/projects/gyderne/img6.webp" alt="Captura de pantalla de Gyderne 6">
-                <img src="../assets/images/projects/gyderne/img7.webp" alt="Captura de pantalla de Gyderne 7">
+                <img src="assets/images/projects/gyderne/img1.webp" alt="Captura de pantalla de Gyderne 1">
+                <img src="assets/images/projects/gyderne/img2.webp" alt="Captura de pantalla de Gyderne 2">
+                <img src="assets/images/projects/gyderne/img3.webp" alt="Captura de pantalla de Gyderne 3">
+                <img src="assets/images/projects/gyderne/img4.webp" alt="Captura de pantalla de Gyderne 4">
+                <img src="assets/images/projects/gyderne/img5.webp" alt="Captura de pantalla de Gyderne 5">
+                <img src="assets/images/projects/gyderne/img6.webp" alt="Captura de pantalla de Gyderne 6">
+                <img src="assets/images/projects/gyderne/img7.webp" alt="Captura de pantalla de Gyderne 7">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Una plataforma educativa completa impulsada por IA que ha estado en producción por más de 5 años. Diseñada para ayudar a estudiantes a aprender matemáticas con razonamiento paso a paso y revisión de pares.</p>
@@ -492,11 +492,11 @@ const projectData = {
         description: `
             <h2>Construcción Robledo - Civil Engineering Business</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/construccion-robledo/img1.webp" alt="Construccion Robledo Screenshot 1">
-                <img src="../assets/images/projects/construccion-robledo/img2.webp" alt="Construccion Robledo Screenshot 2">
-                <img src="../assets/images/projects/construccion-robledo/img3.webp" alt="Construccion Robledo Screenshot 3">
-                <img src="../assets/images/projects/construccion-robledo/img4.webp" alt="Construccion Robledo Screenshot 4">
-                <img src="../assets/images/projects/construccion-robledo/img5.webp" alt="Construccion Robledo Screenshot 5">
+                <img src="assets/images/projects/construccion-robledo/img1.webp" alt="Construccion Robledo Screenshot 1">
+                <img src="assets/images/projects/construccion-robledo/img2.webp" alt="Construccion Robledo Screenshot 2">
+                <img src="assets/images/projects/construccion-robledo/img3.webp" alt="Construccion Robledo Screenshot 3">
+                <img src="assets/images/projects/construccion-robledo/img4.webp" alt="Construccion Robledo Screenshot 4">
+                <img src="assets/images/projects/construccion-robledo/img5.webp" alt="Construccion Robledo Screenshot 5">
             </div>
             <h3>Project Overview</h3>
             <p>Professional website for a civil engineering and construction business. Built entirely in Spanish to serve the Latino market.</p>
@@ -522,11 +522,11 @@ const projectData = {
         descriptionEs: `
             <h2>Construcción Robledo - Negocio de Ingeniería Civil</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/construccion-robledo/img1.webp" alt="Captura de pantalla de Construcción Robledo 1">
-                <img src="../assets/images/projects/construccion-robledo/img2.webp" alt="Captura de pantalla de Construcción Robledo 2">
-                <img src="../assets/images/projects/construccion-robledo/img3.webp" alt="Captura de pantalla de Construcción Robledo 3">
-                <img src="../assets/images/projects/construccion-robledo/img4.webp" alt="Captura de pantalla de Construcción Robledo 4">
-                <img src="../assets/images/projects/construccion-robledo/img5.webp" alt="Captura de pantalla de Construcción Robledo 5">
+                <img src="assets/images/projects/construccion-robledo/img1.webp" alt="Captura de pantalla de Construcción Robledo 1">
+                <img src="assets/images/projects/construccion-robledo/img2.webp" alt="Captura de pantalla de Construcción Robledo 2">
+                <img src="assets/images/projects/construccion-robledo/img3.webp" alt="Captura de pantalla de Construcción Robledo 3">
+                <img src="assets/images/projects/construccion-robledo/img4.webp" alt="Captura de pantalla de Construcción Robledo 4">
+                <img src="assets/images/projects/construccion-robledo/img5.webp" alt="Captura de pantalla de Construcción Robledo 5">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Sitio web profesional para un negocio de ingeniería civil y construcción. Construido completamente en español para servir al mercado latino.</p>
@@ -556,14 +556,14 @@ const projectData = {
         description: `
             <h2>Cosmic Cassy - Childhood Cancer Resource Platform</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/cosmic-cassy/img1.webp" alt="Cosmic Cassy Screenshot 1">
-                <img src="../assets/images/projects/cosmic-cassy/img2.webp" alt="Cosmic Cassy Screenshot 2">
-                <img src="../assets/images/projects/cosmic-cassy/img3.webp" alt="Cosmic Cassy Screenshot 3">
-                <img src="../assets/images/projects/cosmic-cassy/img4.webp" alt="Cosmic Cassy Screenshot 4">
-                <img src="../assets/images/projects/cosmic-cassy/img5.webp" alt="Cosmic Cassy Screenshot 5">
-                <img src="../assets/images/projects/cosmic-cassy/img7.webp" alt="Cosmic Cassy Screenshot 7">
-                <img src="../assets/images/projects/cosmic-cassy/img8.webp" alt="Cosmic Cassy Screenshot 8">
-                <img src="../assets/images/projects/cosmic-cassy/img9.webp" alt="Cosmic Cassy Screenshot 9">
+                <img src="assets/images/projects/cosmic-cassy/img1.webp" alt="Cosmic Cassy Screenshot 1">
+                <img src="assets/images/projects/cosmic-cassy/img2.webp" alt="Cosmic Cassy Screenshot 2">
+                <img src="assets/images/projects/cosmic-cassy/img3.webp" alt="Cosmic Cassy Screenshot 3">
+                <img src="assets/images/projects/cosmic-cassy/img4.webp" alt="Cosmic Cassy Screenshot 4">
+                <img src="assets/images/projects/cosmic-cassy/img5.webp" alt="Cosmic Cassy Screenshot 5">
+                <img src="assets/images/projects/cosmic-cassy/img7.webp" alt="Cosmic Cassy Screenshot 7">
+                <img src="assets/images/projects/cosmic-cassy/img8.webp" alt="Cosmic Cassy Screenshot 8">
+                <img src="assets/images/projects/cosmic-cassy/img9.webp" alt="Cosmic Cassy Screenshot 9">
             </div>
             <h3>Project Overview</h3>
             <p>A comprehensive resource management platform designed specifically for families dealing with childhood cancer. This system provides curated, verified resources for medical, financial, emotional, practical, and educational support with advanced filtering, location detection, and community-driven quality control.</p>
@@ -623,14 +623,14 @@ const projectData = {
         descriptionEs: `
             <h2>Cosmic Cassy - Plataforma de Recursos para Cáncer Infantil</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/cosmic-cassy/img1.webp" alt="Captura de pantalla de Cosmic Cassy 1">
-                <img src="../assets/images/projects/cosmic-cassy/img2.webp" alt="Captura de pantalla de Cosmic Cassy 2">
-                <img src="../assets/images/projects/cosmic-cassy/img3.webp" alt="Captura de pantalla de Cosmic Cassy 3">
-                <img src="../assets/images/projects/cosmic-cassy/img4.webp" alt="Captura de pantalla de Cosmic Cassy 4">
-                <img src="../assets/images/projects/cosmic-cassy/img5.webp" alt="Captura de pantalla de Cosmic Cassy 5">
-                <img src="../assets/images/projects/cosmic-cassy/img7.webp" alt="Captura de pantalla de Cosmic Cassy 7">
-                <img src="../assets/images/projects/cosmic-cassy/img8.webp" alt="Captura de pantalla de Cosmic Cassy 8">
-                <img src="../assets/images/projects/cosmic-cassy/img9.webp" alt="Captura de pantalla de Cosmic Cassy 9">
+                <img src="assets/images/projects/cosmic-cassy/img1.webp" alt="Captura de pantalla de Cosmic Cassy 1">
+                <img src="assets/images/projects/cosmic-cassy/img2.webp" alt="Captura de pantalla de Cosmic Cassy 2">
+                <img src="assets/images/projects/cosmic-cassy/img3.webp" alt="Captura de pantalla de Cosmic Cassy 3">
+                <img src="assets/images/projects/cosmic-cassy/img4.webp" alt="Captura de pantalla de Cosmic Cassy 4">
+                <img src="assets/images/projects/cosmic-cassy/img5.webp" alt="Captura de pantalla de Cosmic Cassy 5">
+                <img src="assets/images/projects/cosmic-cassy/img7.webp" alt="Captura de pantalla de Cosmic Cassy 7">
+                <img src="assets/images/projects/cosmic-cassy/img8.webp" alt="Captura de pantalla de Cosmic Cassy 8">
+                <img src="assets/images/projects/cosmic-cassy/img9.webp" alt="Captura de pantalla de Cosmic Cassy 9">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Una plataforma completa de gestión de recursos diseñada específicamente para familias que enfrentan cáncer infantil. Este sistema proporciona recursos curados y verificados para apoyo médico, financiero, emocional, práctico y educativo con filtrado avanzado, detección de ubicación y control de calidad impulsado por la comunidad.</p>
@@ -694,7 +694,7 @@ const projectData = {
         description: `
             <h2>Neural Legacy - 3D Memory Archive Desktop Software</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/neural-legacy/img1.webp" alt="Neural Legacy Screenshot 1">
+                <img src="assets/images/projects/neural-legacy/img1.webp" alt="Neural Legacy Screenshot 1">
             </div>
             <h3>The Vision</h3>
             <p>Imagine opening an app and seeing a glowing 3D universe. At the center is a pulsing core of light. Branching out from it are glowing spheres — each one represents a category like Family Photos, Dad's Wisdom, or Wedding Videos. Click on a category, and you zoom toward it. Orbiting around it are smaller glowing nodes — individual memories. Each one pulses gently with life.</p>
@@ -776,7 +776,7 @@ const projectData = {
         descriptionEs: `
             <h2>Neural Legacy - Software de Archivo de Memorias 3D</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/neural-legacy/img1.webp" alt="Captura de pantalla de Neural Legacy 1">
+                <img src="assets/images/projects/neural-legacy/img1.webp" alt="Captura de pantalla de Neural Legacy 1">
             </div>
             <h3>La Visión</h3>
             <p>Imagina abrir una aplicación y ver un universo 3D brillante. En el centro hay un núcleo de luz pulsante. Ramificándose desde él hay esferas brillantes — cada una representa una categoría como Fotos Familiares, Sabiduría de Papá, o Videos de Boda. Haz clic en una categoría y te acercas a ella. Orbitando alrededor hay nodos más pequeños brillantes — memorias individuales. Cada uno pulsa suavemente con vida.</p>
