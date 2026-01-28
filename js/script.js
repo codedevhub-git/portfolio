@@ -1,211 +1,31 @@
-// script.js
+// js/script.js
 
-// ===== STATE VARIABLES =====
-let currentTestimonialIndex = 0;
-let isCarouselAnimating = false;
-
-// ===== DOM ELEMENTS =====
-let navbar;
-let heroContainer;
-let testimonialTrack;
-let testimonialCards;
-let modal;
-let modalContent;
-
-// ===== INITIALIZATION =====
-document.addEventListener('DOMContentLoaded', function() {
-    // Cache DOM elements AFTER DOM is ready
-    navbar = document.getElementById('navbar');
-    heroContainer = document.querySelector('.hero-container');
-    testimonialTrack = document.querySelector('.testimonial-track');
-    testimonialCards = document.querySelectorAll('.testimonial-card');
-    modal = document.getElementById('projectModal');
-    modalContent = document.getElementById('modalContent');
-    
-    // Initialize features
-    initSmoothScroll();
-    initNavbarEffects();
-    initTestimonialCarousel();
-    initProjectModals();
-    initContactTracking();
-    initScrollAnimations();
-    logVisit();
+// ===== SMOOTH SCROLL =====
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
 });
 
-// ===== SMOOTH SCROLL NAVIGATION =====
-function initSmoothScroll() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-                
-                // Track navigation clicks
-                const section = this.getAttribute('href').replace('#', '');
-                console.log(`Navigation: User clicked ${section} section`);
-            }
-        });
-    });
-}
+// ===== NAVBAR SCROLL EFFECT =====
+window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 50) {
+        navbar.style.boxShadow = '0 2px 10px rgba(0, 255, 65, 0.1)';
+    } else {
+        navbar.style.boxShadow = 'none';
+    }
+});
 
-// ===== NAVBAR SCROLL EFFECTS =====
-function initNavbarEffects() {
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 249, 63, 0.15)';
-            navbar.style.backdropFilter = 'blur(10px)';
-        } else {
-            navbar.style.boxShadow = 'none';
-            navbar.style.backdropFilter = 'none';
-        }
-    });
-}
-
-// ===== TESTIMONIAL CAROUSEL =====
-let carouselInterval;
-
-function startCarouselAutoRotate() {
-    carouselInterval = setInterval(() => {
-        if (!isCarouselAnimating) {
-            nextTestimonial();
-        }
-    }, 5000);
-}
-
-function stopCarouselAutoRotate() {
-    clearInterval(carouselInterval);
-}
-
-function initTestimonialCarousel() {
-    if (!testimonialTrack || testimonialCards.length === 0) return;
-
-    // Set initial position
-    updateCarouselPosition();
-    
-    // Start auto-rotate
-    startCarouselAutoRotate();
-
-    // Pause on hover
-    testimonialTrack.addEventListener('mouseenter', stopCarouselAutoRotate);
-    testimonialTrack.addEventListener('mouseleave', startCarouselAutoRotate);
-
-    // Carousel controls
-    document.querySelectorAll('[data-carousel-btn]').forEach(btn => {
-        btn.addEventListener('click', function() {
-            if (isCarouselAnimating) return;
-            
-            const direction = this.getAttribute('data-carousel-btn');
-            if (direction === 'next') {
-                nextTestimonial();
-            } else if (direction === 'prev') {
-                prevTestimonial();
-            }
-            
-            // Reset auto-rotate timer when user manually navigates
-            stopCarouselAutoRotate();
-            startCarouselAutoRotate();
-        });
-    });
-}
-
-function nextTestimonial() {
-    if (isCarouselAnimating) return;
-    isCarouselAnimating = true;
-    
-    currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonialCards.length;
-    updateCarouselPosition();
-    
-    setTimeout(() => {
-        isCarouselAnimating = false;
-    }, 500);
-}
-
-function prevTestimonial() {
-    if (isCarouselAnimating) return;
-    isCarouselAnimating = true;
-    
-    currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonialCards.length) % testimonialCards.length;
-    updateCarouselPosition();
-    
-    setTimeout(() => {
-        isCarouselAnimating = false;
-    }, 500);
-}
-
-function updateCarouselPosition() {
-    if (!testimonialTrack) return;
-    
-    const translateX = -currentTestimonialIndex * 100;
-    testimonialTrack.style.transform = `translateX(${translateX}%)`;
-    
-    console.log(`Carousel: Showing testimonial ${currentTestimonialIndex + 1} of ${testimonialCards.length}`);
-}
-
-// ===== PROJECT MODALS =====
-function initProjectModals() {
-    // Open modal buttons
-    document.querySelectorAll('[data-modal]').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const projectId = this.getAttribute('data-modal');
-            openProjectModal(projectId);
-        });
-    });
-
-    // Close modal buttons
-    document.querySelectorAll('[data-modal-close]').forEach(btn => {
-        btn.addEventListener('click', function() {
-            closeProjectModal();
-        });
-    });
-
-    // Close modal on backdrop click
-    modal?.addEventListener('click', function(e) {
-        if (e.target === modal) {
-            closeProjectModal();
-        }
-    });
-
-    // Close modal with Escape key
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape' && modal?.classList.contains('active')) {
-            closeProjectModal();
-        }
-    });
-}
-
-function openProjectModal(projectId) {
-    if (!modal || !modalContent) return;
-    
-    const projectData = getProjectData(projectId);
-    if (!projectData) return;
-    
-    modalContent.innerHTML = projectData.description;
-    modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    
-    console.log(`Modal: Opened project ${projectId}`);
-}
-
-function closeProjectModal() {
-    if (!modal) return;
-    
-    modal.classList.remove('active');
-    document.body.style.overflow = 'auto';
-    
-    console.log('Modal: Closed project modal');
-}
-
-// ===== PROJECT DATA WITH BILINGUAL SUPPORT =====
-function getProjectData(projectId) {
-
-    const currentLang = document.documentElement.lang || 
-                       (window.location.pathname.includes('/es/') ? 'es' : 'en');
-
-const projects = {
+// ===== PROJECT DATA =====
+const projectData = {
     ramos: {
         title: "Ramos Elite Scape",
         titleEs: "Ramos Elite Scape",
@@ -241,10 +61,10 @@ const projects = {
         descriptionEs: `
             <h2>Ramos Elite Scape - Hardscape & Paisajismo</h2>
             <div class="modal-images">
-                <img src="../assets/images/projects/ramos-elite/img2.webp" alt="Captura de pantalla de Ramos Elite Scape 2">
-                <img src="../assets/images/projects/ramos-elite/img3.webp" alt="Captura de pantalla de Ramos Elite Scape 3">
-                <img src="../assets/images/projects/ramos-elite/img4.webp" alt="Captura de pantalla de Ramos Elite Scape 4">
-                <img src="../assets/images/projects/ramos-elite/img5.webp" alt="Captura de pantalla de Ramos Elite Scape 5">
+                <img src="assets/images/projects/ramos-elite/img2.webp" alt="Captura de pantalla de Ramos Elite Scape 2">
+                <img src="assets/images/projects/ramos-elite/img3.webp" alt="Captura de pantalla de Ramos Elite Scape 3">
+                <img src="assets/images/projects/ramos-elite/img4.webp" alt="Captura de pantalla de Ramos Elite Scape 4">
+                <img src="assets/images/projects/ramos-elite/img5.webp" alt="Captura de pantalla de Ramos Elite Scape 5">
             </div>
             <h3>Descripción del Proyecto</h3>
             <p>Sitio web profesional para un negocio de hardscape y paisajismo en Statesville, NC. Construido para mostrar sus servicios, portafolio e información de contacto con un diseño limpio y moderno.</p>
@@ -1038,107 +858,50 @@ const projects = {
     }
 };
 
-        const project = projects[projectId];
-    if (!project) return null;
-
-    // Return project with correct description based on language
-    return {
-        ...project,
-        description: currentLang === 'es' ? project.descriptionEs : project.description
-    };
-}
-
-// ===== CONTACT TRACKING =====
-function initContactTracking() {
-    document.querySelectorAll('[data-contact]').forEach(element => {
-        element.addEventListener('click', function() {
-            const contactMethod = this.getAttribute('data-contact');
-            console.log(`Contact: User clicked ${contactMethod}`);
-        });
-    });
-
-    document.querySelectorAll('[data-social]').forEach(element => {
-        element.addEventListener('click', function() {
-            const social = this.getAttribute('data-social');
-            console.log(`Social: User clicked ${social}`);
-        });
-    });
-
-    document.querySelectorAll('[data-project-link]').forEach(element => {
-        element.addEventListener('click', function() {
-            const project = this.getAttribute('data-project-link');
-            console.log(`Project Link: User visited ${project} live site`);
-        });
-    });
-}
-
-// ===== VISIT LOGGING =====
-function logVisit() {
-    const visitData = {
-        timestamp: new Date().toISOString(),
-        userAgent: navigator.userAgent,
-        language: navigator.language,
-        referrer: document.referrer,
-        url: window.location.href
-    };
+// ===== MODAL FUNCTIONS =====
+function openModal(projectId) {
+    const modal = document.getElementById('projectModal');
+    const modalBody = document.getElementById('modalBody');
+    const project = projectData[projectId];
     
-    console.log('Page Visit:', visitData);
-}
-
-// ===== INTERSECTION OBSERVER FOR ANIMATIONS =====
-function initScrollAnimations() {
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
-                console.log(`Animation: ${entry.target.id || entry.target.className} section animated in`);
-            }
-        });
-    }, observerOptions);
-
-    // Observe sections for animations
-    document.querySelectorAll('section').forEach(section => {
-        observer.observe(section);
-    });
-}
-
-// ===== MOBILE MENU TOGGLE (if needed later) =====
-function initMobileMenu() {
-    const mobileMenuBtn = document.querySelector('[data-mobile-menu]');
-    const navMenu = document.querySelector('.nav-menu');
+    // Detect language from page
+    const isSpanish = document.documentElement.lang === 'es';
+    const content = isSpanish ? project.descriptionEs : project.description;
     
-    if (mobileMenuBtn && navMenu) {
-        mobileMenuBtn.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
-            console.log('Mobile Menu: Toggled');
-        });
+    modalBody.innerHTML = content;
+    modal.style.display = 'block';
+    
+    // Prevent body scroll when modal is open
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    const modal = document.getElementById('projectModal');
+    modal.style.display = 'none';
+    
+    // Re-enable body scroll
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal when clicking outside of it
+window.onclick = function(event) {
+    const modal = document.getElementById('projectModal');
+    if (event.target === modal) {
+        closeModal();
     }
 }
 
-// ===== ERROR HANDLING =====
-window.addEventListener('error', function(e) {
-    console.error('JavaScript Error:', {
-        message: e.message,
-        filename: e.filename,
-        lineno: e.lineno,
-        colno: e.colno,
-        error: e.error
-    });
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeModal();
+    }
 });
 
-// ===== PERFORMANCE MONITORING =====
-window.addEventListener('load', function() {
-    setTimeout(() => {
-        const perfData = performance.getEntriesByType('navigation')[0];
-        console.log('Performance:', {
-            pageLoadTime: Math.round(perfData.loadEventEnd - perfData.navigationStart),
-            domContentLoaded: Math.round(perfData.domContentLoadedEventEnd - perfData.navigationStart),
-            firstByte: Math.round(perfData.responseStart - perfData.navigationStart)
-        });
-    }, 0);
+// ===== CLICK ON PROJECT IMAGE TO OPEN MODAL =====
+document.querySelectorAll('.project-img').forEach(img => {
+    img.addEventListener('click', function() {
+        const projectId = this.closest('.project-card').dataset.project;
+        openModal(projectId);
+    });
 });
