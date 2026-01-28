@@ -201,7 +201,10 @@ function openProjectModal(projectId) {
     if (!modal || !modalBody) return;
     
     const projectData = getProjectData(projectId);
-    if (!projectData) return;
+    if (!projectData) {
+        console.error(`Project data not found for: ${projectId}`);
+        return;
+    }
     
     modalBody.innerHTML = renderProjectModal(projectData, projectId);
     modal.style.display = 'flex';
@@ -567,13 +570,13 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Trak30 - Rastreador de Presupuesto Enfocado en Privacidad</h2>
                 <div class="modal-images">
-                    <img src="../assets/images/projects/trak30/img1.webp" alt="Captura de pantalla de Trak30 1">
-                    <img src="../assets/images/projects/trak30/img2.webp" alt="Captura de pantalla de Trak30 2">
-                    <img src="../assets/images/projects/trak30/img3.webp" alt="Captura de pantalla de Trak30 3">
-                    <img src="../assets/images/projects/trak30/img4.webp" alt="Captura de pantalla de Trak30 4">
-                    <img src="../assets/images/projects/trak30/img5.webp" alt="Captura de pantalla de Trak30 5">
-                    <img src="../assets/images/projects/trak30/img6.webp" alt="Captura de pantalla de Trak30 6">
-                    <img src="../assets/images/projects/trak30/img7.webp" alt="Captura de pantalla de Trak30 7">
+                    <img src="assets/images/projects/trak30/img1.webp" alt="Captura de pantalla de Trak30 1">
+                    <img src="assets/images/projects/trak30/img2.webp" alt="Captura de pantalla de Trak30 2">
+                    <img src="assets/images/projects/trak30/img3.webp" alt="Captura de pantalla de Trak30 3">
+                    <img src="assets/images/projects/trak30/img4.webp" alt="Captura de pantalla de Trak30 4">
+                    <img src="assets/images/projects/trak30/img5.webp" alt="Captura de pantalla de Trak30 5">
+                    <img src="assets/images/projects/trak30/img6.webp" alt="Captura de pantalla de Trak30 6">
+                    <img src="assets/images/projects/trak30/img7.webp" alt="Captura de pantalla de Trak30 7">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Una aplicación completa de seguimiento de finanzas personales construida para personas que quieren responsabilidad sin comprometer su privacidad. Trak30 es un producto SaaS completo sin registro de email requerido, sin vincular bancos, y cero rastreo — solo tú y tu dinero.</p>
@@ -701,21 +704,21 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Rucker Dentistry - Sitio Web de Consultorio Dental</h2>
                 <div class="modal-images">
-                    <img src="../assets/images/projects/rucker-dentistry/img1.webp" alt="Captura de pantalla de Rucker Dentistry 1">
-                    <img src="../assets/images/projects/rucker-dentistry/img2.webp" alt="Captura de pantalla de Rucker Dentistry 2">
-                    <img src="../assets/images/projects/rucker-dentistry/img3.webp" alt="Captura de pantalla de Rucker Dentistry 3">
-                    <img src="../assets/images/projects/rucker-dentistry/img4.webp" alt="Captura de pantalla de Rucker Dentistry 4">
-                    <img src="../assets/images/projects/rucker-dentistry/img5.webp" alt="Captura de pantalla de Rucker Dentistry 5">
-                    <img src="../assets/images/projects/rucker-dentistry/img6.webp" alt="Captura de pantalla de Rucker Dentistry 6">
-                    <img src="../assets/images/projects/rucker-dentistry/img7.webp" alt="Captura de pantalla de Rucker Dentistry 7">
-                    <img src="../assets/images/projects/rucker-dentistry/img8.webp" alt="Captura de pantalla de Rucker Dentistry 8">
-                    <img src="../assets/images/projects/rucker-dentistry/img9.webp" alt="Captura de pantalla de Rucker Dentistry 9">
-                    <img src="../assets/images/projects/rucker-dentistry/img10.webp" alt="Captura de pantalla de Rucker Dentistry 10">
-                    <img src="../assets/images/projects/rucker-dentistry/img11.webp" alt="Captura de pantalla de Rucker Dentistry 11">
-                    <img src="../assets/images/projects/rucker-dentistry/img12.webp" alt="Captura de pantalla de Rucker Dentistry 12">
-                    <img src="../assets/images/projects/rucker-dentistry/img13.webp" alt="Captura de pantalla de Rucker Dentistry 13">
-                    <img src="../assets/images/projects/rucker-dentistry/img14.webp" alt="Captura de pantalla de Rucker Dentistry 14">
-                    <img src="../assets/images/projects/rucker-dentistry/img15.webp" alt="Captura de pantalla de Rucker Dentistry 15">
+                    <img src="assets/images/projects/rucker-dentistry/img1.webp" alt="Captura de pantalla de Rucker Dentistry 1">
+                    <img src="assets/images/projects/rucker-dentistry/img2.webp" alt="Captura de pantalla de Rucker Dentistry 2">
+                    <img src="assets/images/projects/rucker-dentistry/img3.webp" alt="Captura de pantalla de Rucker Dentistry 3">
+                    <img src="assets/images/projects/rucker-dentistry/img4.webp" alt="Captura de pantalla de Rucker Dentistry 4">
+                    <img src="assets/images/projects/rucker-dentistry/img5.webp" alt="Captura de pantalla de Rucker Dentistry 5">
+                    <img src="assets/images/projects/rucker-dentistry/img6.webp" alt="Captura de pantalla de Rucker Dentistry 6">
+                    <img src="assets/images/projects/rucker-dentistry/img7.webp" alt="Captura de pantalla de Rucker Dentistry 7">
+                    <img src="assets/images/projects/rucker-dentistry/img8.webp" alt="Captura de pantalla de Rucker Dentistry 8">
+                    <img src="assets/images/projects/rucker-dentistry/img9.webp" alt="Captura de pantalla de Rucker Dentistry 9">
+                    <img src="assets/images/projects/rucker-dentistry/img10.webp" alt="Captura de pantalla de Rucker Dentistry 10">
+                    <img src="assets/images/projects/rucker-dentistry/img11.webp" alt="Captura de pantalla de Rucker Dentistry 11">
+                    <img src="assets/images/projects/rucker-dentistry/img12.webp" alt="Captura de pantalla de Rucker Dentistry 12">
+                    <img src="assets/images/projects/rucker-dentistry/img13.webp" alt="Captura de pantalla de Rucker Dentistry 13">
+                    <img src="assets/images/projects/rucker-dentistry/img14.webp" alt="Captura de pantalla de Rucker Dentistry 14">
+                    <img src="assets/images/projects/rucker-dentistry/img15.webp" alt="Captura de pantalla de Rucker Dentistry 15">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Sitio web profesional para un consultorio dental en Lancaster, SC. Diseñado para proporcionar a los pacientes acceso fácil a información sobre servicios, citas y detalles de contacto.</p>
@@ -774,10 +777,10 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Honey & Milk Lactation - Servicios de Consultoría</h2>
                 <div class="modal-images">
-                    <img src="../assets/images/projects/honey-milk/img2.webp" alt="Captura de pantalla de Honey & Milk 2">
-                    <img src="../assets/images/projects/honey-milk/img4.webp" alt="Captura de pantalla de Honey & Milk 4">
-                    <img src="../assets/images/projects/honey-milk/img5.webp" alt="Captura de pantalla de Honey & Milk 5">
-                    <img src="../assets/images/projects/honey-milk/img11.webp" alt="Captura de pantalla de Honey & Milk 11">
+                    <img src="assets/images/projects/honey-milk/img2.webp" alt="Captura de pantalla de Honey & Milk 2">
+                    <img src="assets/images/projects/honey-milk/img4.webp" alt="Captura de pantalla de Honey & Milk 4">
+                    <img src="assets/images/projects/honey-milk/img5.webp" alt="Captura de pantalla de Honey & Milk 5">
+                    <img src="assets/images/projects/honey-milk/img11.webp" alt="Captura de pantalla de Honey & Milk 11">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Sitio web para un servicio de consultoría de lactancia en Lancaster, SC. Construido para ayudar a nuevas madres a encontrar apoyo y programar consultas.</p>
@@ -839,13 +842,13 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Gyderne - Plataforma Educativa con IA</h2>
                 <div class="modal-images">
-                    <img src="../assets/images/projects/gyderne/img1.webp" alt="Captura de pantalla de Gyderne 1">
-                    <img src="../assets/images/projects/gyderne/img2.webp" alt="Captura de pantalla de Gyderne 2">
-                    <img src="../assets/images/projects/gyderne/img3.webp" alt="Captura de pantalla de Gyderne 3">
-                    <img src="../assets/images/projects/gyderne/img4.webp" alt="Captura de pantalla de Gyderne 4">
-                    <img src="../assets/images/projects/gyderne/img5.webp" alt="Captura de pantalla de Gyderne 5">
-                    <img src="../assets/images/projects/gyderne/img6.webp" alt="Captura de pantalla de Gyderne 6">
-                    <img src="../assets/images/projects/gyderne/img7.webp" alt="Captura de pantalla de Gyderne 7">
+                    <img src="assets/images/projects/gyderne/img1.webp" alt="Captura de pantalla de Gyderne 1">
+                    <img src="assets/images/projects/gyderne/img2.webp" alt="Captura de pantalla de Gyderne 2">
+                    <img src="assets/images/projects/gyderne/img3.webp" alt="Captura de pantalla de Gyderne 3">
+                    <img src="assets/images/projects/gyderne/img4.webp" alt="Captura de pantalla de Gyderne 4">
+                    <img src="assets/images/projects/gyderne/img5.webp" alt="Captura de pantalla de Gyderne 5">
+                    <img src="assets/images/projects/gyderne/img6.webp" alt="Captura de pantalla de Gyderne 6">
+                    <img src="assets/images/projects/gyderne/img7.webp" alt="Captura de pantalla de Gyderne 7">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Una plataforma educativa completa impulsada por IA que ha estado en producción por más de 5 años. Diseñada para ayudar a estudiantes a aprender matemáticas con razonamiento paso a paso y revisión de pares.</p>
@@ -905,11 +908,11 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Construcción Robledo - Negocio de Ingeniería Civil</h2>
                 <div class="modal-images">
-                    <img src="../assets/images/projects/construccion-robledo/img1.webp" alt="Captura de pantalla de Construcción Robledo 1">
-                    <img src="../assets/images/projects/construccion-robledo/img2.webp" alt="Captura de pantalla de Construcción Robledo 2">
-                    <img src="../assets/images/projects/construccion-robledo/img3.webp" alt="Captura de pantalla de Construcción Robledo 3">
-                    <img src="../assets/images/projects/construccion-robledo/img4.webp" alt="Captura de pantalla de Construcción Robledo 4">
-                    <img src="../assets/images/projects/construccion-robledo/img5.webp" alt="Captura de pantalla de Construcción Robledo 5">
+                    <img src="assets/images/projects/construccion-robledo/img1.webp" alt="Captura de pantalla de Construcción Robledo 1">
+                    <img src="assets/images/projects/construccion-robledo/img2.webp" alt="Captura de pantalla de Construcción Robledo 2">
+                    <img src="assets/images/projects/construccion-robledo/img3.webp" alt="Captura de pantalla de Construcción Robledo 3">
+                    <img src="assets/images/projects/construccion-robledo/img4.webp" alt="Captura de pantalla de Construcción Robledo 4">
+                    <img src="assets/images/projects/construccion-robledo/img5.webp" alt="Captura de pantalla de Construcción Robledo 5">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Sitio web profesional para un negocio de ingeniería civil y construcción. Construido completamente en español para servir al mercado latino.</p>
@@ -1006,14 +1009,14 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Cosmic Cassy - Plataforma de Recursos para Cáncer Infantil</h2>
                 <div class="modal-images">
-                    <img src="../assets/images/projects/cosmic-cassy/img1.webp" alt="Captura de pantalla de Cosmic Cassy 1">
-                    <img src="../assets/images/projects/cosmic-cassy/img2.webp" alt="Captura de pantalla de Cosmic Cassy 2">
-                    <img src="../assets/images/projects/cosmic-cassy/img3.webp" alt="Captura de pantalla de Cosmic Cassy 3">
-                    <img src="../assets/images/projects/cosmic-cassy/img4.webp" alt="Captura de pantalla de Cosmic Cassy 4">
-                    <img src="../assets/images/projects/cosmic-cassy/img5.webp" alt="Captura de pantalla de Cosmic Cassy 5">
-                    <img src="../assets/images/projects/cosmic-cassy/img7.webp" alt="Captura de pantalla de Cosmic Cassy 7">
-                    <img src="../assets/images/projects/cosmic-cassy/img8.webp" alt="Captura de pantalla de Cosmic Cassy 8">
-                    <img src="../assets/images/projects/cosmic-cassy/img9.webp" alt="Captura de pantalla de Cosmic Cassy 9">
+                    <img src="assets/images/projects/cosmic-cassy/img1.webp" alt="Captura de pantalla de Cosmic Cassy 1">
+                    <img src="assets/images/projects/cosmic-cassy/img2.webp" alt="Captura de pantalla de Cosmic Cassy 2">
+                    <img src="assets/images/projects/cosmic-cassy/img3.webp" alt="Captura de pantalla de Cosmic Cassy 3">
+                    <img src="assets/images/projects/cosmic-cassy/img4.webp" alt="Captura de pantalla de Cosmic Cassy 4">
+                    <img src="assets/images/projects/cosmic-cassy/img5.webp" alt="Captura de pantalla de Cosmic Cassy 5">
+                    <img src="assets/images/projects/cosmic-cassy/img7.webp" alt="Captura de pantalla de Cosmic Cassy 7">
+                    <img src="assets/images/projects/cosmic-cassy/img8.webp" alt="Captura de pantalla de Cosmic Cassy 8">
+                    <img src="assets/images/projects/cosmic-cassy/img9.webp" alt="Captura de pantalla de Cosmic Cassy 9">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Una plataforma completa de gestión de recursos diseñada específicamente para familias que enfrentan cáncer infantil. Este sistema proporciona recursos curados y verificados para apoyo médico, financiero, emocional, práctico y educativo con filtrado avanzado, detección de ubicación y control de calidad impulsado por la comunidad.</p>
@@ -1159,7 +1162,7 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Neural Legacy - Software de Archivo de Memorias 3D</h2>
                 <div class="modal-images">
-                    <img src="../assets/images/projects/neural-legacy/img1.webp" alt="Captura de pantalla de Neural Legacy 1">
+                    <img src="assets/images/projects/neural-legacy/img1.webp" alt="Captura de pantalla de Neural Legacy 1">
                 </div>
                 <h3>La Visión</h3>
                 <p>Imagina abrir una aplicación y ver un universo 3D brillante. En el centro hay un núcleo de luz pulsante. Ramificándose desde él hay esferas brillantes — cada una representa una categoría como Fotos Familiares, Sabiduría de Papá, o Videos de Boda. Haz clic en una categoría y te acercas a ella. Orbitando alrededor hay nodos más pequeños brillantes — memorias individuales. Cada uno pulsa suavemente con vida.</p>
@@ -1321,7 +1324,7 @@ window.addEventListener('error', function(e) {
     });
 });
 
-/* ===== PERFORMANCE MONITORING ===== */
+/* ===== PERFORMANCE MONITORING ===== openProjectModal */
 window.addEventListener('load', function() {
     setTimeout(() => {
         const perfData = performance.getEntriesByType('navigation')[0];
