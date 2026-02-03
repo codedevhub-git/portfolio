@@ -570,13 +570,13 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Trak30 - Rastreador de Presupuesto Enfocado en Privacidad</h2>
                 <div class="modal-images">
-                    <img src="assets/images/projects/trak30/img1.webp" alt="Captura de pantalla de Trak30 1">
-                    <img src="assets/images/projects/trak30/img2.webp" alt="Captura de pantalla de Trak30 2">
-                    <img src="assets/images/projects/trak30/img3.webp" alt="Captura de pantalla de Trak30 3">
-                    <img src="assets/images/projects/trak30/img4.webp" alt="Captura de pantalla de Trak30 4">
-                    <img src="assets/images/projects/trak30/img5.webp" alt="Captura de pantalla de Trak30 5">
-                    <img src="assets/images/projects/trak30/img6.webp" alt="Captura de pantalla de Trak30 6">
-                    <img src="assets/images/projects/trak30/img7.webp" alt="Captura de pantalla de Trak30 7">
+                    <img src="../assets/images/projects/trak30/img1.webp" alt="Captura de pantalla de Trak30 1">
+                    <img src="../assets/images/projects/trak30/img2.webp" alt="Captura de pantalla de Trak30 2">
+                    <img src="../assets/images/projects/trak30/img3.webp" alt="Captura de pantalla de Trak30 3">
+                    <img src="../assets/images/projects/trak30/img4.webp" alt="Captura de pantalla de Trak30 4">
+                    <img src="../assets/images/projects/trak30/img5.webp" alt="Captura de pantalla de Trak30 5">
+                    <img src="../assets/images/projects/trak30/img6.webp" alt="Captura de pantalla de Trak30 6">
+                    <img src="../assets/images/projects/trak30/img7.webp" alt="Captura de pantalla de Trak30 7">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Una aplicación completa de seguimiento de finanzas personales construida para personas que quieren responsabilidad sin comprometer su privacidad. Trak30 es un producto SaaS completo sin registro de email requerido, sin vincular bancos, y cero rastreo — solo tú y tu dinero.</p>
@@ -704,21 +704,21 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Rucker Dentistry - Sitio Web de Consultorio Dental</h2>
                 <div class="modal-images">
-                    <img src="assets/images/projects/rucker-dentistry/img1.webp" alt="Captura de pantalla de Rucker Dentistry 1">
-                    <img src="assets/images/projects/rucker-dentistry/img2.webp" alt="Captura de pantalla de Rucker Dentistry 2">
-                    <img src="assets/images/projects/rucker-dentistry/img3.webp" alt="Captura de pantalla de Rucker Dentistry 3">
-                    <img src="assets/images/projects/rucker-dentistry/img4.webp" alt="Captura de pantalla de Rucker Dentistry 4">
-                    <img src="assets/images/projects/rucker-dentistry/img5.webp" alt="Captura de pantalla de Rucker Dentistry 5">
-                    <img src="assets/images/projects/rucker-dentistry/img6.webp" alt="Captura de pantalla de Rucker Dentistry 6">
-                    <img src="assets/images/projects/rucker-dentistry/img7.webp" alt="Captura de pantalla de Rucker Dentistry 7">
-                    <img src="assets/images/projects/rucker-dentistry/img8.webp" alt="Captura de pantalla de Rucker Dentistry 8">
-                    <img src="assets/images/projects/rucker-dentistry/img9.webp" alt="Captura de pantalla de Rucker Dentistry 9">
-                    <img src="assets/images/projects/rucker-dentistry/img10.webp" alt="Captura de pantalla de Rucker Dentistry 10">
-                    <img src="assets/images/projects/rucker-dentistry/img11.webp" alt="Captura de pantalla de Rucker Dentistry 11">
-                    <img src="assets/images/projects/rucker-dentistry/img12.webp" alt="Captura de pantalla de Rucker Dentistry 12">
-                    <img src="assets/images/projects/rucker-dentistry/img13.webp" alt="Captura de pantalla de Rucker Dentistry 13">
-                    <img src="assets/images/projects/rucker-dentistry/img14.webp" alt="Captura de pantalla de Rucker Dentistry 14">
-                    <img src="assets/images/projects/rucker-dentistry/img15.webp" alt="Captura de pantalla de Rucker Dentistry 15">
+                    <img src="../assets/images/projects/rucker-dentistry/img1.webp" alt="Captura de pantalla de Rucker Dentistry 1">
+                    <img src="../assets/images/projects/rucker-dentistry/img2.webp" alt="Captura de pantalla de Rucker Dentistry 2">
+                    <img src="../assets/images/projects/rucker-dentistry/img3.webp" alt="Captura de pantalla de Rucker Dentistry 3">
+                    <img src="../assets/images/projects/rucker-dentistry/img4.webp" alt="Captura de pantalla de Rucker Dentistry 4">
+                    <img src="../assets/images/projects/rucker-dentistry/img5.webp" alt="Captura de pantalla de Rucker Dentistry 5">
+                    <img src="../assets/images/projects/rucker-dentistry/img6.webp" alt="Captura de pantalla de Rucker Dentistry 6">
+                    <img src="../assets/images/projects/rucker-dentistry/img7.webp" alt="Captura de pantalla de Rucker Dentistry 7">
+                    <img src="../assets/images/projects/rucker-dentistry/img8.webp" alt="Captura de pantalla de Rucker Dentistry 8">
+                    <img src="../assets/images/projects/rucker-dentistry/img9.webp" alt="Captura de pantalla de Rucker Dentistry 9">
+                    <img src="../assets/images/projects/rucker-dentistry/img10.webp" alt="Captura de pantalla de Rucker Dentistry 10">
+                    <img src="../assets/images/projects/rucker-dentistry/img11.webp" alt="Captura de pantalla de Rucker Dentistry 11">
+                    <img src="../assets/images/projects/rucker-dentistry/img12.webp" alt="Captura de pantalla de Rucker Dentistry 12">
+                    <img src="../assets/images/projects/rucker-dentistry/img13.webp" alt="Captura de pantalla de Rucker Dentistry 13">
+                    <img src="../assets/images/projects/rucker-dentistry/img14.webp" alt="Captura de pantalla de Rucker Dentistry 14">
+                    <img src="../assets/images/projects/rucker-dentistry/img15.webp" alt="Captura de pantalla de Rucker Dentistry 15">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Sitio web profesional para un consultorio dental en Lancaster, SC. Diseñado para proporcionar a los pacientes acceso fácil a información sobre servicios, citas y detalles de contacto.</p>
@@ -777,10 +777,10 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Honey & Milk Lactation - Servicios de Consultoría</h2>
                 <div class="modal-images">
-                    <img src="assets/images/projects/honey-milk/img2.webp" alt="Captura de pantalla de Honey & Milk 2">
-                    <img src="assets/images/projects/honey-milk/img4.webp" alt="Captura de pantalla de Honey & Milk 4">
-                    <img src="assets/images/projects/honey-milk/img5.webp" alt="Captura de pantalla de Honey & Milk 5">
-                    <img src="assets/images/projects/honey-milk/img11.webp" alt="Captura de pantalla de Honey & Milk 11">
+                    <img src="../assets/images/projects/honey-milk/img2.webp" alt="Captura de pantalla de Honey & Milk 2">
+                    <img src="../assets/images/projects/honey-milk/img4.webp" alt="Captura de pantalla de Honey & Milk 4">
+                    <img src="../assets/images/projects/honey-milk/img5.webp" alt="Captura de pantalla de Honey & Milk 5">
+                    <img src="../assets/images/projects/honey-milk/img11.webp" alt="Captura de pantalla de Honey & Milk 11">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Sitio web para un servicio de consultoría de lactancia en Lancaster, SC. Construido para ayudar a nuevas madres a encontrar apoyo y programar consultas.</p>
@@ -842,13 +842,13 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Gyderne - Plataforma Educativa con IA</h2>
                 <div class="modal-images">
-                    <img src="assets/images/projects/gyderne/img1.webp" alt="Captura de pantalla de Gyderne 1">
-                    <img src="assets/images/projects/gyderne/img2.webp" alt="Captura de pantalla de Gyderne 2">
-                    <img src="assets/images/projects/gyderne/img3.webp" alt="Captura de pantalla de Gyderne 3">
-                    <img src="assets/images/projects/gyderne/img4.webp" alt="Captura de pantalla de Gyderne 4">
-                    <img src="assets/images/projects/gyderne/img5.webp" alt="Captura de pantalla de Gyderne 5">
-                    <img src="assets/images/projects/gyderne/img6.webp" alt="Captura de pantalla de Gyderne 6">
-                    <img src="assets/images/projects/gyderne/img7.webp" alt="Captura de pantalla de Gyderne 7">
+                    <img src="../assets/images/projects/gyderne/img1.webp" alt="Captura de pantalla de Gyderne 1">
+                    <img src="../assets/images/projects/gyderne/img2.webp" alt="Captura de pantalla de Gyderne 2">
+                    <img src="../assets/images/projects/gyderne/img3.webp" alt="Captura de pantalla de Gyderne 3">
+                    <img src="../assets/images/projects/gyderne/img4.webp" alt="Captura de pantalla de Gyderne 4">
+                    <img src="../assets/images/projects/gyderne/img5.webp" alt="Captura de pantalla de Gyderne 5">
+                    <img src="../assets/images/projects/gyderne/img6.webp" alt="Captura de pantalla de Gyderne 6">
+                    <img src="../assets/images/projects/gyderne/img7.webp" alt="Captura de pantalla de Gyderne 7">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Una plataforma educativa completa impulsada por IA que ha estado en producción por más de 5 años. Diseñada para ayudar a estudiantes a aprender matemáticas con razonamiento paso a paso y revisión de pares.</p>
@@ -908,11 +908,11 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Construcción Robledo - Negocio de Ingeniería Civil</h2>
                 <div class="modal-images">
-                    <img src="assets/images/projects/construccion-robledo/img1.webp" alt="Captura de pantalla de Construcción Robledo 1">
-                    <img src="assets/images/projects/construccion-robledo/img2.webp" alt="Captura de pantalla de Construcción Robledo 2">
-                    <img src="assets/images/projects/construccion-robledo/img3.webp" alt="Captura de pantalla de Construcción Robledo 3">
-                    <img src="assets/images/projects/construccion-robledo/img4.webp" alt="Captura de pantalla de Construcción Robledo 4">
-                    <img src="assets/images/projects/construccion-robledo/img5.webp" alt="Captura de pantalla de Construcción Robledo 5">
+                    <img src="../assets/images/projects/construccion-robledo/img1.webp" alt="Captura de pantalla de Construcción Robledo 1">
+                    <img src="../assets/images/projects/construccion-robledo/img2.webp" alt="Captura de pantalla de Construcción Robledo 2">
+                    <img src="../assets/images/projects/construccion-robledo/img3.webp" alt="Captura de pantalla de Construcción Robledo 3">
+                    <img src="../assets/images/projects/construccion-robledo/img4.webp" alt="Captura de pantalla de Construcción Robledo 4">
+                    <img src="../assets/images/projects/construccion-robledo/img5.webp" alt="Captura de pantalla de Construcción Robledo 5">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Sitio web profesional para un negocio de ingeniería civil y construcción. Construido completamente en español para servir al mercado latino.</p>
@@ -1009,14 +1009,14 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Cosmic Cassy - Plataforma de Recursos para Cáncer Infantil</h2>
                 <div class="modal-images">
-                    <img src="assets/images/projects/cosmic-cassy/img1.webp" alt="Captura de pantalla de Cosmic Cassy 1">
-                    <img src="assets/images/projects/cosmic-cassy/img2.webp" alt="Captura de pantalla de Cosmic Cassy 2">
-                    <img src="assets/images/projects/cosmic-cassy/img3.webp" alt="Captura de pantalla de Cosmic Cassy 3">
-                    <img src="assets/images/projects/cosmic-cassy/img4.webp" alt="Captura de pantalla de Cosmic Cassy 4">
-                    <img src="assets/images/projects/cosmic-cassy/img5.webp" alt="Captura de pantalla de Cosmic Cassy 5">
-                    <img src="assets/images/projects/cosmic-cassy/img7.webp" alt="Captura de pantalla de Cosmic Cassy 7">
-                    <img src="assets/images/projects/cosmic-cassy/img8.webp" alt="Captura de pantalla de Cosmic Cassy 8">
-                    <img src="assets/images/projects/cosmic-cassy/img9.webp" alt="Captura de pantalla de Cosmic Cassy 9">
+                    <img src="../assets/images/projects/cosmic-cassy/img1.webp" alt="Captura de pantalla de Cosmic Cassy 1">
+                    <img src="../assets/images/projects/cosmic-cassy/img2.webp" alt="Captura de pantalla de Cosmic Cassy 2">
+                    <img src="../assets/images/projects/cosmic-cassy/img3.webp" alt="Captura de pantalla de Cosmic Cassy 3">
+                    <img src="../assets/images/projects/cosmic-cassy/img4.webp" alt="Captura de pantalla de Cosmic Cassy 4">
+                    <img src="../assets/images/projects/cosmic-cassy/img5.webp" alt="Captura de pantalla de Cosmic Cassy 5">
+                    <img src="../assets/images/projects/cosmic-cassy/img7.webp" alt="Captura de pantalla de Cosmic Cassy 7">
+                    <img src="../assets/images/projects/cosmic-cassy/img8.webp" alt="Captura de pantalla de Cosmic Cassy 8">
+                    <img src="../assets/images/projects/cosmic-cassy/img9.webp" alt="Captura de pantalla de Cosmic Cassy 9">
                 </div>
                 <h3>Descripción del Proyecto</h3>
                 <p>Una plataforma completa de gestión de recursos diseñada específicamente para familias que enfrentan cáncer infantil. Este sistema proporciona recursos curados y verificados para apoyo médico, financiero, emocional, práctico y educativo con filtrado avanzado, detección de ubicación y control de calidad impulsado por la comunidad.</p>
@@ -1162,7 +1162,7 @@ function getProjectData(projectId) {
             descriptionEs: `
                 <h2>Neural Legacy - Software de Archivo de Memorias 3D</h2>
                 <div class="modal-images">
-                    <img src="assets/images/projects/neural-legacy/img1.webp" alt="Captura de pantalla de Neural Legacy 1">
+                    <img src="../assets/images/projects/neural-legacy/img1.webp" alt="Captura de pantalla de Neural Legacy 1">
                 </div>
                 <h3>La Visión</h3>
                 <p>Imagina abrir una aplicación y ver un universo 3D brillante. En el centro hay un núcleo de luz pulsante. Ramificándose desde él hay esferas brillantes — cada una representa una categoría como Fotos Familiares, Sabiduría de Papá, o Videos de Boda. Haz clic en una categoría y te acercas a ella. Orbitando alrededor hay nodos más pequeños brillantes — memorias individuales. Cada uno pulsa suavemente con vida.</p>
@@ -1241,7 +1241,146 @@ function getProjectData(projectId) {
                 <p>Neural Legacy invierte eso: lo posees completamente. Compra única, acceso de por vida. Tus datos viven en tu computadora. Puedes respaldarlos donde quieras. Nadie puede quitártelo.</p>
                 <p>Y es hermoso. Las memorias merecen más que carpetas y nombres de archivo. Merecen existir en un universo que se siente vivo.</p>
             `
+        },        
+        terracore: {
+            title: "Terra Core Construction",
+            titleEs: "Terra Core Construction",
+            description: `
+                <h2>Terra Core Construction - Home Improvement Platform</h2>
+                <div class="modal-images">
+                    <img src="assets/images/projects/terra-core/img1.webp" alt="Terra Core Construction Screenshot 1">
+                    <img src="assets/images/projects/terra-core/img2.webp" alt="Terra Core Construction Screenshot 2">
+                    <img src="assets/images/projects/terra-core/img3.webp" alt="Terra Core Construction Screenshot 3">
+                    <img src="assets/images/projects/terra-core/img4.webp" alt="Terra Core Construction Screenshot 4">
+                    <img src="assets/images/projects/terra-core/img5.webp" alt="Terra Core Construction Screenshot 5">
+                </div>
+                <h3>Project Overview</h3>
+                <p>A comprehensive website for a family-owned home improvement business serving Lancaster, Rock Hill, Fort Mill, and surrounding South Carolina areas. Built to showcase 11 specialized services with professional design and streamlined quote requests.</p>
+                
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Service Category Filtering:</strong> Dynamic JavaScript filtering system allowing users to browse by "All Services", "Remodeling", "Outdoor Living", "Construction", "Painting", and "Repairs"</li>
+                    <li><strong>11 Specialized Services:</strong> Home Additions, Outdoor Kitchens, Bathroom Remodeling, Kitchen Remodeling, Painting, Concrete Work, Decks & Pergolas, Fire Pits, Custom Carpentry, Drywall Repair, Retaining Walls</li>
+                    <li><strong>Modal Quote Form:</strong> Non-intrusive quote request system that keeps users on the page with instant validation and email notifications</li>
+                    <li><strong>Trust Indicators:</strong> Prominently displayed stats (12+ years experience, 500+ projects, family-owned) build immediate credibility</li>
+                    <li><strong>Geographic SEO:</strong> Lists 8 specific service areas for local search optimization</li>
+                    <li><strong>Testimonial System:</strong> Three detailed client reviews with locations to establish social proof</li>
+                    <li><strong>Multiple Contact Methods:</strong> Email, two phone lines, quote forms for maximum lead capture</li>
+                </ul>
+                
+                <h3>Technical Implementation</h3>
+                <ul>
+                    <li><strong>Service Cards System:</strong> Each service has a professional hero image, benefit-focused title, and category badge for instant recognition</li>
+                    <li><strong>Form Validation:</strong> Client-side validation with required field checking and "How did you hear about us?" tracking for marketing attribution</li>
+                    <li><strong>Responsive Design:</strong> Mobile-first approach ensures perfect display on phones, tablets, and desktop</li>
+                    <li><strong>Email Integration:</strong> Nodemailer sends instant notifications to business owner when quote forms are submitted</li>
+                    <li><strong>Performance Optimization:</strong> WebP image format for fast load times without quality loss</li>
+                    <li><strong>Breadcrumb Navigation:</strong> Clear user path tracking improves UX and SEO</li>
+                </ul>
+                
+                <h3>Business Impact</h3>
+                <ul>
+                    <li><strong>Lead Generation:</strong> Multiple quote request CTAs throughout site maximize conversion opportunities</li>
+                    <li><strong>Credibility Building:</strong> Professional design with testimonials and project stats establishes authority in competitive home improvement market</li>
+                    <li><strong>Service Clarity:</strong> Category filtering helps customers quickly find exactly what they need, reducing bounce rate</li>
+                    <li><strong>Local SEO:</strong> Geographic targeting for Lancaster, Rock Hill, Fort Mill improves ranking for "near me" searches</li>
+                </ul>
+                
+                <h3>Tech Stack</h3>
+                <div class="tech-stack">
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">Express</span>
+                    <span class="tech-badge">EJS</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Nodemailer</span>
+                    <span class="tech-badge">WebP Images</span>
+                    <span class="tech-badge">Responsive Design</span>
+                </div>
+                
+                <h3>Why It Matters</h3>
+                <p>Terra Core Construction demonstrates expertise in building conversion-focused business websites with:</p>
+                <ul>
+                    <li>Service filtering and categorization for improved UX</li>
+                    <li>Lead generation optimization with multiple CTAs and contact methods</li>
+                    <li>Local SEO targeting for geographic service areas</li>
+                    <li>Trust-building elements (testimonials, stats, family-owned messaging)</li>
+                    <li>Modal-based forms that keep users engaged without page redirects</li>
+                    <li>Performance optimization for fast mobile loading</li>
+                </ul>
+                
+                <h3>Client Success</h3>
+                <p>This website helped Terra Core establish a professional online presence in the competitive South Carolina home improvement market. The service filtering system makes it easy for customers to find exactly what they need, while multiple contact methods and quote forms provide various paths to conversion, maximizing lead capture.</p>
+            `,
+            descriptionEs: `
+                <h2>Terra Core Construction - Plataforma de Mejoras del Hogar</h2>
+                <div class="modal-images">
+                    <img src="../assets/images/projects/terra-core/img1.webp" alt="Captura de pantalla de Terra Core Construction 1">
+                    <img src="../assets/images/projects/terra-core/img2.webp" alt="Captura de pantalla de Terra Core Construction 2">
+                    <img src="../assets/images/projects/terra-core/img3.webp" alt="Captura de pantalla de Terra Core Construction 3">
+                    <img src="../assets/images/projects/terra-core/img4.webp" alt="Captura de pantalla de Terra Core Construction 4">
+                    <img src="../assets/images/projects/terra-core/img5.webp" alt="Captura de pantalla de Terra Core Construction 5">
+                </div>
+                <h3>Descripción del Proyecto</h3>
+                <p>Un sitio web completo para un negocio familiar de mejoras del hogar que sirve a Lancaster, Rock Hill, Fort Mill y áreas circundantes de Carolina del Sur. Construido para mostrar 11 servicios especializados con diseño profesional y solicitudes de cotización optimizadas.</p>
+                
+                <h3>Características Principales</h3>
+                <ul>
+                    <li><strong>Filtrado de Categorías de Servicios:</strong> Sistema de filtrado JavaScript dinámico que permite a los usuarios navegar por "Todos los Servicios", "Remodelación", "Vida al Aire Libre", "Construcción", "Pintura" y "Reparaciones"</li>
+                    <li><strong>11 Servicios Especializados:</strong> Adiciones de Hogar, Cocinas al Aire Libre, Remodelación de Baños, Remodelación de Cocinas, Pintura, Trabajo de Concreto, Decks y Pérgolas, Fogatas, Carpintería Personalizada, Reparación de Drywall, Muros de Contención</li>
+                    <li><strong>Formulario de Cotización Modal:</strong> Sistema de solicitud de cotización no intrusivo que mantiene a los usuarios en la página con validación instantánea y notificaciones por email</li>
+                    <li><strong>Indicadores de Confianza:</strong> Estadísticas mostradas prominentemente (12+ años de experiencia, 500+ proyectos, negocio familiar) construyen credibilidad inmediata</li>
+                    <li><strong>SEO Geográfico:</strong> Lista 8 áreas de servicio específicas para optimización de búsqueda local</li>
+                    <li><strong>Sistema de Testimonios:</strong> Tres reseñas detalladas de clientes con ubicaciones para establecer prueba social</li>
+                    <li><strong>Múltiples Métodos de Contacto:</strong> Email, dos líneas telefónicas, formularios de cotización para máxima captura de leads</li>
+                </ul>
+                
+                <h3>Implementación Técnica</h3>
+                <ul>
+                    <li><strong>Sistema de Tarjetas de Servicios:</strong> Cada servicio tiene una imagen profesional, título enfocado en beneficios y etiqueta de categoría para reconocimiento instantáneo</li>
+                    <li><strong>Validación de Formularios:</strong> Validación del lado del cliente con verificación de campos requeridos y seguimiento de "¿Cómo se enteró de nosotros?" para atribución de marketing</li>
+                    <li><strong>Diseño Responsivo:</strong> Enfoque mobile-first asegura visualización perfecta en teléfonos, tablets y escritorio</li>
+                    <li><strong>Integración de Email:</strong> Nodemailer envía notificaciones instantáneas al propietario del negocio cuando se envían formularios de cotización</li>
+                    <li><strong>Optimización de Rendimiento:</strong> Formato de imagen WebP para tiempos de carga rápidos sin pérdida de calidad</li>
+                    <li><strong>Navegación Breadcrumb:</strong> Seguimiento claro de ruta del usuario mejora UX y SEO</li>
+                </ul>
+                
+                <h3>Impacto Empresarial</h3>
+                <ul>
+                    <li><strong>Generación de Leads:</strong> Múltiples CTAs de solicitud de cotización en todo el sitio maximizan oportunidades de conversión</li>
+                    <li><strong>Construcción de Credibilidad:</strong> Diseño profesional con testimonios y estadísticas de proyectos establece autoridad en mercado competitivo de mejoras del hogar</li>
+                    <li><strong>Claridad de Servicios:</strong> Filtrado de categorías ayuda a clientes a encontrar rápidamente exactamente lo que necesitan, reduciendo tasa de rebote</li>
+                    <li><strong>SEO Local:</strong> Orientación geográfica para Lancaster, Rock Hill, Fort Mill mejora clasificación para búsquedas "cerca de mí"</li>
+                </ul>
+                
+                <h3>Tecnologías Utilizadas</h3>
+                <div class="tech-stack">
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">Express</span>
+                    <span class="tech-badge">EJS</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Nodemailer</span>
+                    <span class="tech-badge">Imágenes WebP</span>
+                    <span class="tech-badge">Diseño Responsivo</span>
+                </div>
+                
+                <h3>Por Qué es Importante</h3>
+                <p>Terra Core Construction demuestra experiencia en construir sitios web empresariales enfocados en conversión con:</p>
+                <ul>
+                    <li>Filtrado y categorización de servicios para UX mejorada</li>
+                    <li>Optimización de generación de leads con múltiples CTAs y métodos de contacto</li>
+                    <li>Orientación SEO local para áreas de servicio geográficas</li>
+                    <li>Elementos de construcción de confianza (testimonios, estadísticas, mensajería de negocio familiar)</li>
+                    <li>Formularios basados en modal que mantienen a usuarios comprometidos sin redirecciones de página</li>
+                    <li>Optimización de rendimiento para carga móvil rápida</li>
+                </ul>
+                
+                <h3>Éxito del Cliente</h3>
+                <p>Este sitio web ayudó a Terra Core a establecer una presencia profesional en línea en el competitivo mercado de mejoras del hogar de Carolina del Sur. El sistema de filtrado de servicios facilita que los clientes encuentren exactamente lo que necesitan, mientras que múltiples métodos de contacto y formularios de cotización proporcionan varias vías de conversión, maximizando la captura de leads.</p>
+            `
         }
+
     };
 
     const project = projects[projectId];
