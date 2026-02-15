@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO -->
+  <title>Projects | Edgar Robledo - Web Development Portfolio</title>
+  <meta name="description" content="View my recent web development projects including custom websites, web applications, and platforms for businesses in South Carolina and North Carolina.">
+  <meta name="keywords" content="web development portfolio, projects, websites, web applications, node.js projects, lancaster sc, charlotte nc">
+  <link rel="canonical" href="https://www.codedevhub.com/projects.html">
+  
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.codedevhub.com/projects.html">
+  <meta property="og:title" content="Projects | Edgar Robledo">
+  <meta property="og:description" content="View my recent web development projects including custom websites, web applications, and platforms.">
+  <meta property="og:image" content="https://www.codedevhub.com/images/og-default.png">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.codedevhub.com/projects.html">
+  <meta name="twitter:title" content="Projects | Edgar Robledo">
+  <meta name="twitter:description" content="View my recent web development projects including custom websites, web applications, and platforms.">
+  <meta name="twitter:image" content="https://www.codedevhub.com/images/og-default.png">
+
+   
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Web Development Projects",
+    "description": "Portfolio of web development projects by Edgar Robledo",
+    "creator": {
+      "@type": "Person",
+      "name": "Edgar Robledo",
+      "url": "https://www.codedevhub.com"
+    }
+  }
+  </script>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <meta property="og:image" content="https://www.codedevhub.com/images/og-default.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="/css/global.css">
+  
+  <!-- Page-specific CSS -->
+  <link rel="stylesheet" href="/css/projects.css">
+</head>
+<body>
+  <!-- Three.js Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Language Toggle -->
+  <div class="language-toggle">
+    <button class="btn btn-secondary active" data-lang="en">&lt;EN/&gt;</button>
+    <button class="btn btn-secondary" data-lang="es">&lt;ES/&gt;</button>
+  </div>
+
+  <!-- Back Button -->
+  <div class="back-button">
+    <a href="/index.html" class="btn btn-secondary">
+      <span>←</span> Back
+    </a>
+  </div>
+
+  <!-- Main Container -->
+  <main class="projects-container">
+    <!-- Header Section -->
+    <header class="projects-header">
+      <div class="code-block-header">
+        <div class="code-line">
+          <span class="code-comment">// My Projects</span>
+        </div>
+        <div class="code-line">
+          <span class="code-key">const</span> <span class="code-variable">myProjects</span> <span class="code-symbol">=</span> <span class="code-bracket">{</span>
+        </div>
+        <div class="code-line code-indent">
+          <span class="code-key">count</span><span class="code-symbol">:</span> <span class="code-number">9</span><span class="code-symbol">,</span>
+        </div>
+        <div class="code-line code-indent">
+          <span class="code-key">mostRecent</span><span class="code-symbol">:</span> <span class="code-string">"Terracore Construction"</span><span class="code-symbol">,</span>
+        </div>
+        <div class="code-line code-indent">
+          <span class="code-key">stack</span><span class="code-symbol">:</span> <span class="code-bracket">[</span><span class="code-string">"Node.js"</span><span class="code-symbol">,</span> <span class="code-string">"Express"</span><span class="code-symbol">,</span> <span class="code-string">"MongoDB"</span><span class="code-symbol">,</span> <span class="code-string">"EJS"</span><span class="code-bracket">]</span>
+        </div>
+        <div class="code-line">
+          <span class="code-bracket">}</span>
+        </div>
+      </div>
+      
+      <h1 class="page-title">
+        <span class="code-symbol">&gt;</span> PROJECTS
+      </h1>
+      
+      <p class="page-subtitle">
+        Real websites built from scratch for real businesses.<br>
+        No templates. No WordPress. Just clean, custom code.
+      </p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <section class="filter-section">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="construction">Construction</button>
+        <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+        <button class="filter-btn" data-filter="professional">Professional Services</button>
+        <button class="filter-btn" data-filter="tools">Tools/Apps</button>
+        <button class="filter-btn" data-filter="community">Community</button>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid">
+      
+      <!-- Project 1: Terracore Construction (MOST RECENT) -->
+      <article class="project-card" data-category="construction" data-animate>
+        <span class="badge-recent">Most Recent</span>
+        <span class="badge-service">Online Presence</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/terra-core/img1.webp" alt="Terracore Construction screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/terra-core/img2.webp" alt="Terracore Construction screenshot 2" class="carousel-slide">
+            <img src="/images/projects/terra-core/img3.webp" alt="Terracore Construction screenshot 3" class="carousel-slide">
+            <img src="/images/projects/terra-core/img4.webp" alt="Terracore Construction screenshot 4" class="carousel-slide">
+            <img src="/images/projects/terra-core/img5.webp" alt="Terracore Construction screenshot 5" class="carousel-slide">
+            <img src="/images/projects/terra-core/main.webp" alt="Terracore Construction main" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Terracore Construction</h2>
+          <p class="project-description">Construction company website</p>
+          <a href="https://www.terracoreconstruction.com/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 2: Trak30 -->
+      <article class="project-card" data-category="tools" data-animate>
+        <span class="badge-service">Internal Tools</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/trak30/img1.webp" alt="Trak30 screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/trak30/img2.webp" alt="Trak30 screenshot 2" class="carousel-slide">
+            <img src="/images/projects/trak30/img3.webp" alt="Trak30 screenshot 3" class="carousel-slide">
+            <img src="/images/projects/trak30/img4.webp" alt="Trak30 screenshot 4" class="carousel-slide">
+            <img src="/images/projects/trak30/img5.webp" alt="Trak30 screenshot 5" class="carousel-slide">
+            <img src="/images/projects/trak30/img6.webp" alt="Trak30 screenshot 6" class="carousel-slide">
+            <img src="/images/projects/trak30/img7.webp" alt="Trak30 screenshot 7" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+            <span class="dot" data-slide="6"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Trak30</h2>
+          <p class="project-description">Budget tracking platform with AI</p>
+          <a href="https://www.trak30.com/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 3: Rucker Dentistry -->
+      <article class="project-card" data-category="healthcare" data-animate>
+        <span class="badge-service">Online Presence</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/rucker-dentistry/img1.webp" alt="Rucker Dentistry screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/rucker-dentistry/img4.webp" alt="Rucker Dentistry screenshot 2" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img5.webp" alt="Rucker Dentistry screenshot 3" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img6.webp" alt="Rucker Dentistry screenshot 4" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img7.webp" alt="Rucker Dentistry screenshot 5" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img8.webp" alt="Rucker Dentistry screenshot 6" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img9.webp" alt="Rucker Dentistry screenshot 7" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img10.webp" alt="Rucker Dentistry screenshot 8" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img11.webp" alt="Rucker Dentistry screenshot 9" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img12.webp" alt="Rucker Dentistry screenshot 10" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img13.webp" alt="Rucker Dentistry screenshot 11" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img14.webp" alt="Rucker Dentistry screenshot 12" class="carousel-slide">
+            <img src="/images/projects/rucker-dentistry/img15.webp" alt="Rucker Dentistry screenshot 13" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+            <span class="dot" data-slide="6"></span>
+            <span class="dot" data-slide="7"></span>
+            <span class="dot" data-slide="8"></span>
+            <span class="dot" data-slide="9"></span>
+            <span class="dot" data-slide="10"></span>
+            <span class="dot" data-slide="11"></span>
+            <span class="dot" data-slide="12"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Rucker Dentistry</h2>
+          <p class="project-description">Professional dental practice site</p>
+          <a href="https://www.ruckerdentistry.org/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 4: Ramos Elitescape -->
+      <article class="project-card" data-category="professional" data-animate>
+        <span class="badge-service">Lead Generation</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/ramos-elite/img.webp" alt="Ramos Elitescape screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/ramos-elite/img2.webp" alt="Ramos Elitescape screenshot 2" class="carousel-slide">
+            <img src="/images/projects/ramos-elite/img3.webp" alt="Ramos Elitescape screenshot 3" class="carousel-slide">
+            <img src="/images/projects/ramos-elite/img4.webp" alt="Ramos Elitescape screenshot 4" class="carousel-slide">
+            <img src="/images/projects/ramos-elite/img5.webp" alt="Ramos Elitescape screenshot 5" class="carousel-slide">
+            <img src="/images/projects/ramos-elite/img6.webp" alt="Ramos Elitescape screenshot 6" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Ramos Elitescape</h2>
+          <p class="project-description">Landscaping services website</p>
+          <a href="https://www.ramoselitescape.com/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 5: Honey & Milk Lactation -->
+      <article class="project-card" data-category="healthcare" data-animate>
+        <span class="badge-service">Online Presence</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/honey-milk/img2.webp" alt="Honey & Milk Lactation screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/honey-milk/img4.webp" alt="Honey & Milk Lactation screenshot 2" class="carousel-slide">
+            <img src="/images/projects/honey-milk/img5.webp" alt="Honey & Milk Lactation screenshot 3" class="carousel-slide">
+            <img src="/images/projects/honey-milk/img11.webp" alt="Honey & Milk Lactation screenshot 4" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Honey & Milk Lactation</h2>
+          <p class="project-description">Lactation consulting services</p>
+          <a href="https://www.honeyandmilklactation.com/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 6: Construcción Robledo -->
+      <article class="project-card" data-category="construction" data-animate>
+        <span class="badge-service">Online Presence</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/construccion-robledo/img1.webp" alt="Construcción Robledo screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/construccion-robledo/img4.webp" alt="Construcción Robledo screenshot 2" class="carousel-slide">
+            <img src="/images/projects/construccion-robledo/img5.webp" alt="Construcción Robledo screenshot 3" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Construcción Robledo</h2>
+          <p class="project-description">Construction & remodeling services</p>
+          <a href="https://construccionrobledo.biz/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 7: Cosmic Cassy -->
+      <article class="project-card" data-category="community" data-animate>
+        <span class="badge-service">Community & Resources</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/cosmic-cassy/img1.webp" alt="Cosmic Cassy screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/cosmic-cassy/img2.webp" alt="Cosmic Cassy screenshot 2" class="carousel-slide">
+            <img src="/images/projects/cosmic-cassy/img3.webp" alt="Cosmic Cassy screenshot 3" class="carousel-slide">
+            <img src="/images/projects/cosmic-cassy/img4.webp" alt="Cosmic Cassy screenshot 4" class="carousel-slide">
+            <img src="/images/projects/cosmic-cassy/img5.webp" alt="Cosmic Cassy screenshot 5" class="carousel-slide">
+            <img src="/images/projects/cosmic-cassy/img6.webp" alt="Cosmic Cassy screenshot 6" class="carousel-slide">
+            <img src="/images/projects/cosmic-cassy/img7.webp" alt="Cosmic Cassy screenshot 7" class="carousel-slide">
+            <img src="/images/projects/cosmic-cassy/img8.webp" alt="Cosmic Cassy screenshot 8" class="carousel-slide">
+            <img src="/images/projects/cosmic-cassy/img9.webp" alt="Cosmic Cassy screenshot 9" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+            <span class="dot" data-slide="6"></span>
+            <span class="dot" data-slide="7"></span>
+            <span class="dot" data-slide="8"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Cosmic Cassy</h2>
+          <p class="project-description">Childhood cancer support platform</p>
+          <a href="https://www.cosmiccassy.com/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 8: Gyderne -->
+      <article class="project-card" data-category="tools" data-animate>
+        <span class="badge-service">Custom Development</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/gyderne/img1.webp" alt="Gyderne screenshot 1" class="carousel-slide active">
+            <img src="/images/projects/gyderne/img4.webp" alt="Gyderne screenshot 2" class="carousel-slide">
+            <img src="/images/projects/gyderne/img5.webp" alt="Gyderne screenshot 3" class="carousel-slide">
+            <img src="/images/projects/gyderne/img6.webp" alt="Gyderne screenshot 4" class="carousel-slide">
+            <img src="/images/projects/gyderne/img7.webp" alt="Gyderne screenshot 5" class="carousel-slide">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Gyderne</h2>
+          <p class="project-description">National service platform</p>
+          <a href="https://gyderne.com/" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 9: Neural Legacy -->
+      <article class="project-card" data-category="tools" data-animate>
+        <span class="badge-service">Custom Development</span>
+        
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="/images/projects/neural-legacy/img1.webp" alt="Neural Legacy screenshot 1" class="carousel-slide active">
+          </div>
+          <button class="carousel-btn carousel-prev" aria-label="Previous image">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next image">›</button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+          </div>
+        </div>
+        
+        <div class="project-content">
+          <h2 class="project-name">Neural Legacy</h2>
+          <p class="project-description">AI-powered platform</p>
+          <a href="https://nopalcoder.itch.io/neural-legacy-system" 
+             class="btn btn-primary" 
+             target="_blank" 
+             rel="noopener noreferrer">
+            Visit Site →
+          </a>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" data-animate>
+      <h2>Like what you see?</h2>
+      <p>Let's build something amazing for your business.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/18032097750?text=Hi%20Edgar,%20I%20saw%20your%20projects%20and%20want%20to%20discuss%20mine" 
+           class="btn btn-primary btn-large" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          WhatsApp Me
+        </a>
+        <a href="/services.html" class="btn btn-secondary btn-large">
+          View Services
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global JS -->
+  <script src="/js/global.js"></script>
+  
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  
+  <!-- Three.js Background -->
+  <script src="/js/three-background.js"></script>
+  
+  <!-- Page-specific JS -->
+  <script src="/js/projects.js"></script>
+</body>
+</html>
