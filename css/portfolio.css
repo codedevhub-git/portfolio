@@ -619,7 +619,6 @@
   .reviews-block {
     padding: var(--spacing-lg);
     font-size: var(--font-body);
-    margin-top: var(--spacing-xl);
   }
 }
 
