@@ -150,19 +150,24 @@ function initCarousel(carousel) {
     clearInterval(autoplayInterval);
   }
 
-  // Next button
-  nextBtn.addEventListener('click', () => {
-    nextSlide();
-    stopAutoplay();
-    startAutoplay();
-  });
+  // Single-slide carousels need no navigation
+  if (slides.length <= 1) return;
 
-  // Previous button
-  prevBtn.addEventListener('click', () => {
-    prevSlide();
-    stopAutoplay();
-    startAutoplay();
-  });
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      nextSlide();
+      stopAutoplay();
+      startAutoplay();
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      prevSlide();
+      stopAutoplay();
+      startAutoplay();
+    });
+  }
 
   // Dot navigation
   dots.forEach((dot, index) => {
