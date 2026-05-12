@@ -227,12 +227,14 @@ code {
 .btn-primary {
   background: var(--accent-blue);
   border-color: var(--accent-blue);
-  color: var(--bg-primary);
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .btn-primary:hover {
   background: var(--accent-green);
   border-color: var(--accent-green);
+  color: #0d1117;
 }
 
 .btn-secondary {
