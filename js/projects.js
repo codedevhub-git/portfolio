@@ -267,7 +267,7 @@ function logProjectsMessage() {
 
   console.log('%c> PROJECTS', styles.title);
   console.log('%c7 projects showcased', styles.info);
-  console.log('%cMost recent: Terracore Construction', styles.project);
+  console.log('%cMost recent: Nanarii', styles.project);
   console.log('%cStack: Node.js, Express, MongoDB, EJS', styles.info);
 }
 
