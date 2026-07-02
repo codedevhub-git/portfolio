@@ -147,12 +147,12 @@ function handleCardClick(card, e) {
  * Initialize contact link tracking
  */
 function initContactTracking() {
-  // Track WhatsApp clicks
-  const whatsappLinks = document.querySelectorAll('a[href^="https://wa.me"]');
-  whatsappLinks.forEach(link => {
+  // Track Call clicks
+  const callLinks = document.querySelectorAll('a[href^="tel:"]');
+  callLinks.forEach(link => {
     link.addEventListener('click', () => {
-      console.log('WhatsApp link clicked');
-      saveToLocalStorage('contact_method_used', 'whatsapp');
+      console.log('Call link clicked');
+      saveToLocalStorage('contact_method_used', 'call');
     });
   });
 
@@ -203,11 +203,11 @@ function initKeyboardNavigation() {
       }
     }
 
-    // 'w' for WhatsApp
-    if (e.key.toLowerCase() === 'w' && !e.ctrlKey && !e.metaKey) {
-      const whatsappLink = document.querySelector('a[href^="https://wa.me"]');
-      if (whatsappLink) {
-        whatsappLink.click();
+    // 'c' for Call
+    if (e.key.toLowerCase() === 'c' && !e.ctrlKey && !e.metaKey) {
+      const callLink = document.querySelector('a[href^="tel:"]');
+      if (callLink) {
+        callLink.click();
       }
     }
 
@@ -291,12 +291,12 @@ function logWelcomeMessage() {
   console.log('%cLocation: Lancaster, SC / Charlotte, NC', styles.tech);
   console.log('%c', ''); // Empty line
   console.log('%cInterested in working together?', styles.contact);
-  console.log('%cWhatsApp: +1-803-209-7750', styles.contact);
+  console.log('%cPhone: +1-803-209-7750', styles.contact);
   console.log('%cEmail: edgar@codedevhub.com', styles.contact);
   console.log('%c', ''); // Empty line
   console.log('%cKeyboard shortcuts:', styles.subtitle);
   console.log('%c1-4: Navigate to sections', styles.tech);
-  console.log('%cW: Open WhatsApp', styles.tech);
+  console.log('%cC: Call', styles.tech);
   console.log('%cE: Send Email', styles.tech);
 }
 

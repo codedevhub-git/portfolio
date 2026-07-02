@@ -289,22 +289,6 @@ function initAnimationObserver() {
 }
 
 /* ============================================
-   WHATSAPP LINK GENERATOR
-   ============================================ */
-
-/**
- * Generate WhatsApp link with pre-filled message
- * @param {string} phone - Phone number (international format)
- * @param {string} message - Pre-filled message
- * @returns {string} - WhatsApp URL
- */
-function generateWhatsAppLink(phone, message = '') {
-  const cleanPhone = phone.replace(/\D/g, '');
-  const encodedMessage = encodeURIComponent(message);
-  return `https://wa.me/${cleanPhone}${message ? '?text=' + encodedMessage : ''}`;
-}
-
-/* ============================================
    INITIALIZATION
    ============================================ */
 

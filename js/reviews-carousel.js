@@ -111,6 +111,36 @@ function stopAutoplay() {
 }
 
 /**
+ * Update "X months ago" style review dates from their data-date attribute,
+ * so they stay accurate without manual edits.
+ */
+function updateReviewDates() {
+  const lang = document.documentElement.lang === 'es' ? 'es' : 'en';
+  const rtf = new Intl.RelativeTimeFormat(lang, { numeric: 'auto' });
+
+  document.querySelectorAll('.review-date[data-date]').forEach((el) => {
+    const target = new Date(el.dataset.date + 'T00:00:00');
+    const now = new Date();
+    const diffDays = Math.round((target.getTime() - now.getTime()) / 86400000);
+    const absDays = Math.abs(diffDays);
+
+    let text;
+    if (absDays >= 365) {
+      text = rtf.format(Math.round(diffDays / 365.25), 'year');
+    } else if (absDays >= 30) {
+      text = rtf.format(Math.round(diffDays / 30.44), 'month');
+    } else {
+      text = rtf.format(diffDays, 'day');
+    }
+
+    el.textContent = text;
+  });
+}
+
+/**
  * Initialize on page load
  */
-document.addEventListener('DOMContentLoaded', initReviewsCarousel);
+document.addEventListener('DOMContentLoaded', () => {
+  initReviewsCarousel();
+  updateReviewDates();
+});
