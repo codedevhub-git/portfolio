@@ -284,7 +284,7 @@ function logWelcomeMessage() {
     contact: 'color: #ffa657; font-family: monospace; font-size: 12px;'
   };
 
-  console.log('%c> EDGAR_ROBLEDO', styles.title);
+  console.log('%c> ROBLEDO', styles.title);
   console.log('%c// Full-Stack Web Developer', styles.subtitle);
   console.log('%c', ''); // Empty line
   console.log('%cStack: Node.js, Express, MongoDB, EJS', styles.tech);

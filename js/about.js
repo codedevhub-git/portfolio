@@ -204,7 +204,7 @@ function logAboutMessage() {
     value: 'color: #58a6ff; font-family: monospace; font-size: 12px;'
   };
 
-  console.log('%c> ABOUT EDGAR', styles.title);
+  console.log('%c> ABOUT ROBLEDO', styles.title);
   console.log('%cLocation: Lancaster, SC → Charlotte, NC', styles.info);
   console.log('%cReach: Clients across USA', styles.info);
   console.log('%cStack: Node.js + Express + MongoDB + EJS', styles.value);

@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   // Log console message (GitHub style)
-  console.log('%c> EDGAR_ROBLEDO', 'color: #7ee787; font-family: monospace; font-size: 16px; font-weight: bold;');
+  console.log('%c> ROBLEDO', 'color: #7ee787; font-family: monospace; font-size: 16px; font-weight: bold;');
   console.log('%c// Full-Stack Web Developer', 'color: #8b949e; font-family: monospace; font-size: 14px;');
   console.log('%cBuilt with Node.js, Express, MongoDB, EJS', 'color: #58a6ff; font-family: monospace; font-size: 12px;');
 });
