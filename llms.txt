@@ -1,6 +1,6 @@
 # CodeDevHub
 
-> CodeDevHub is Edgar Robledo, an independent bilingual (English/Spanish) software developer in Lancaster, SC, USA. He builds small-business websites, custom web apps and SaaS, business software (inventory, POS, invoicing), Windows desktop software, AI assistants and games. Contact: (803) 209-7750 (call/text/WhatsApp), edgar@codedevhub.com.
+> CodeDevHub is Edgar Robledo, an independent bilingual (English/Spanish) software developer in Lancaster, SC, USA. He builds small-business websites, custom web apps and SaaS, business software (inventory, POS, invoicing), Windows desktop software, AI assistants and games. Contact: (803) 209-7750 (call or text), edgar@codedevhub.com.
 
 ## Services
 - [Web design](https://www.codedevhub.com/services/web-design/): Custom, bilingual small-business websites from $800. Fast, mobile-first, built to get calls, texts and quote requests. Lancaster SC, Rock Hill, Charlotte and remote.
@@ -30,7 +30,7 @@
 - [Ramos Elite Scape](https://www.codedevhub.com/work/ramos-elite-scape/): Contractor website. Hardscape and landscaping that sells itself: big photos, clear services, free quotes.
 - [Jayden’sCards4Cancer & JaydenZ Foundation](https://www.codedevhub.com/work/jaydens-cards-4-cancer/): Nonprofit websites. Two sites carrying one boy’s idea forward: trading cards for kids with cancer, and a foundation for families.
 - [Yonny Multiservices](https://www.codedevhub.com/work/yonny-multiservices/): One-page business site. A fast one-pager for a handyman, made to be shared on Facebook and tapped straight to WhatsApp.
-- [Dulce Paraíso](https://www.codedevhub.com/work/dulce-paraiso/): Design prototype. A panadería site prototype made to show a bakery owner what their online presence could be.
+- [Casa del Pan](https://www.codedevhub.com/work/bakery-concept/): Bakery website concept. A concept site for a Mexican panadería: warm photography, a fresh-from-the-oven menu, and directions one tap away.
 - [Beyond Andromeda](https://www.codedevhub.com/work/beyond-andromeda/): Browser game. An endless roguelite space shooter where the swarm remembers how you fly.
 - [DeadMageddon](https://www.codedevhub.com/work/deadmageddon/): Browser game. The dead are walking out of the fog. Hold the barricade until dawn.
 - [Meteor Impact](https://www.codedevhub.com/work/meteor-impact/): Browser game. Fling meteors through real orbital gravity. Crater worlds, shatter giants, make new moons.

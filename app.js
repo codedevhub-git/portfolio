@@ -42,7 +42,7 @@
   // contact message builder
   const f = $('#builder');
   if (f) {
-    const PHONE = '+18032097750', WA = '18032097750', MAIL = 'edgar@codedevhub.com';
+    const PHONE = '+18032097750', MAIL = 'edgar@codedevhub.com';
     const build = () => {
       const d = new FormData(f);
       const needs = d.getAll('need');
@@ -57,7 +57,6 @@
       const m = build();
       $('#msgPreview').textContent = m;
       $('#sendSms').href = `sms:${PHONE}?&body=${encodeURIComponent(m)}`;
-      $('#sendWa').href = `https://wa.me/${WA}?text=${encodeURIComponent(m)}`;
       $('#sendMail').href = `mailto:${MAIL}?subject=${encodeURIComponent('Project inquiry')}&body=${encodeURIComponent(m)}`;
     };
     f.addEventListener('input', update); f.addEventListener('change', update); update();
