@@ -28,7 +28,8 @@
 - [Honey & Milk Lactation](https://www.codedevhub.com/work/honey-and-milk/): Healthcare website + AI assistant. A warm, professional site for an IBCLC, with an AI assistant that answers questions and captures leads.
 - [Tienda Mi País](https://www.codedevhub.com/work/tienda-mi-pais/): Retail website + Spanish-first CMS. A neighborhood Latin grocery with promotions, products and money transfers, managed in Spanish.
 - [Ramos Elite Scape](https://www.codedevhub.com/work/ramos-elite-scape/): Contractor website. Hardscape and landscaping that sells itself: big photos, clear services, free quotes.
-- [Jayden’sCards4Cancer & JaydenZ Foundation](https://www.codedevhub.com/work/jaydens-cards-4-cancer/): Nonprofit websites. Two sites carrying one boy’s idea forward: trading cards for kids with cancer, and a foundation for families.
+- [JaydenZ Foundation](https://www.codedevhub.com/work/jaydenz-foundation/): Nonprofit website + support workflow. His fight became our fight. A 501(c)(3) site for families facing sarcoma, built to feel like an app.
+- [Jayden’sCards4Cancer](https://www.codedevhub.com/work/jaydens-cards-4-cancer/): Nonprofit website + CMS. Trading cards for kids fighting cancer, one pack at a time. A charity started by Jayden himself.
 - [Yonny Multiservices](https://www.codedevhub.com/work/yonny-multiservices/): One-page business site. A fast one-pager for a handyman, made to be shared on Facebook and tapped straight to WhatsApp.
 - [Casa del Pan](https://www.codedevhub.com/work/bakery-concept/): Bakery website concept. A concept site for a Mexican panadería: warm photography, a fresh-from-the-oven menu, and directions one tap away.
 - [Beyond Andromeda](https://www.codedevhub.com/work/beyond-andromeda/): Browser game. An endless roguelite space shooter where the swarm remembers how you fly.
