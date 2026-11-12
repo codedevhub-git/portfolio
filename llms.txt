@@ -1,0 +1,47 @@
+# CodeDevHub
+
+> CodeDevHub is Edgar Robledo, an independent bilingual (English/Spanish) software developer in Lancaster, SC, USA. He builds small-business websites, custom web apps and SaaS, business software (inventory, POS, invoicing), Windows desktop software, AI assistants and games. Contact: (803) 209-7750 (call/text/WhatsApp), edgar@codedevhub.com.
+
+## Services
+- [Web design](https://www.codedevhub.com/services/web-design/): Custom, bilingual small-business websites from $800. Fast, mobile-first, built to get calls, texts and quote requests. Lancaster SC, Rock Hill, Charlotte and remote.
+- [Custom web apps](https://www.codedevhub.com/services/custom-web-apps/): Custom web applications and SaaS: logins, payments, directories, portals and subscriptions. Built by the developer behind Nanarii and Cosmic Cassy.
+- [Business software & POS](https://www.codedevhub.com/services/business-software/): Custom inventory, job tracking, invoicing, POS and reporting software for small businesses: web or desktop, in English and Spanish. See real tools I have built.
+- [Desktop software](https://www.codedevhub.com/services/desktop-software/): Custom Windows desktop applications with Electron, SQLite and Python: offline business systems, licensed software products, tools and overlays.
+- [AI & automation](https://www.codedevhub.com/services/ai-automation/): AI chat assistants that capture leads, AI-assisted content and data processing, and private AI that runs on your own PC. Practical AI for small businesses.
+- [Game development](https://www.codedevhub.com/services/game-development/): Browser games, educational games and 3D games on my own Godot-based engine W.I.L.D.E.R. Five games published on itch.io.
+- [Google Business Profile](https://www.codedevhub.com/services/google-business-profile/): Google Business Profile setup and cleanup, local SEO, city pages, reviews flow and website schema for small businesses in Lancaster SC, Rock Hill and Charlotte.
+- [Website redesign](https://www.codedevhub.com/services/website-redesign/): Redesign or rebuild an existing website while keeping your domain, email and search rankings. Faster, mobile-first, bilingual and built to convert.
+
+## Selected work
+- [Nanarii](https://www.codedevhub.com/work/nanarii/): SaaS platform. A business operating system for Latino small businesses, in Spanish first.
+- [Cosmic Cassy](https://www.codedevhub.com/work/cosmic-cassy/): Nonprofit platform + AI guide. Trusted help for families fighting childhood cancer: checked resources, an AI guide named Cassy, and tools for the people who help them.
+- [GYDE](https://www.codedevhub.com/work/gyde/): Education & research platform. One place for students, teachers and researchers: courses, class notes, peer review, discussion and CVs.
+- [Sistema de Gestión](https://www.codedevhub.com/work/sistema-de-gestion/): Desktop software. An offline business system for a construction-supply store: inventory, invoices, accounting and forecasts.
+- [ShopTrack](https://www.codedevhub.com/work/shoptrack/): Desktop software product. Licensed Windows software for mechanic shops: customers, vehicles, jobs, parts and reports, all offline.
+- [NAHUAL](https://www.codedevhub.com/work/nahual/): Desktop AI. A personal AI that lives on your own PC, with memory, voice and control of your computer, and nothing sent to the cloud.
+- [W.I.L.D.E.R.](https://www.codedevhub.com/work/wilder-engine/): Game engine. World Infrastructure for Living, Dynamic, Emergent Realms. My own game framework on Godot 4.
+- [Míani: The World Within](https://www.codedevhub.com/work/miani/): 3D game. A living 3D world grown from one person’s memories, for their family to explore together.
+- [The Hollow Wild](https://www.codedevhub.com/work/hollow-wild/): 3D game. Open-world survival horror. A beautiful wilderness, until the darkness falls.
+- [Preheim Pools & Construction](https://www.codedevhub.com/work/preheim-pools/): Business website + CMS. Bilingual pool construction and service site with a project gallery the owner updates himself.
+- [Rucker Dentistry](https://www.codedevhub.com/work/rucker-dentistry/): Healthcare website + CMS. A bilingual dental practice site for two offices, with reviews and appointments up front.
+- [D’Reyes Delicias](https://www.codedevhub.com/work/dreyes-delicias/): Food truck website + menu CMS. Taquizas and catering: a menu, events and bookings the owner keeps current from a phone.
+- [Honey & Milk Lactation](https://www.codedevhub.com/work/honey-and-milk/): Healthcare website + AI assistant. A warm, professional site for an IBCLC, with an AI assistant that answers questions and captures leads.
+- [Tienda Mi País](https://www.codedevhub.com/work/tienda-mi-pais/): Retail website + Spanish-first CMS. A neighborhood Latin grocery with promotions, products and money transfers, managed in Spanish.
+- [Ramos Elite Scape](https://www.codedevhub.com/work/ramos-elite-scape/): Contractor website. Hardscape and landscaping that sells itself: big photos, clear services, free quotes.
+- [Jayden’sCards4Cancer & JaydenZ Foundation](https://www.codedevhub.com/work/jaydens-cards-4-cancer/): Nonprofit websites. Two sites carrying one boy’s idea forward: trading cards for kids with cancer, and a foundation for families.
+- [Yonny Multiservices](https://www.codedevhub.com/work/yonny-multiservices/): One-page business site. A fast one-pager for a handyman, made to be shared on Facebook and tapped straight to WhatsApp.
+- [Dulce Paraíso](https://www.codedevhub.com/work/dulce-paraiso/): Design prototype. A panadería site prototype made to show a bakery owner what their online presence could be.
+- [Beyond Andromeda](https://www.codedevhub.com/work/beyond-andromeda/): Browser game. An endless roguelite space shooter where the swarm remembers how you fly.
+- [DeadMageddon](https://www.codedevhub.com/work/deadmageddon/): Browser game. The dead are walking out of the fog. Hold the barricade until dawn.
+- [Meteor Impact](https://www.codedevhub.com/work/meteor-impact/): Browser game. Fling meteors through real orbital gravity. Crater worlds, shatter giants, make new moons.
+- [OP BOT](https://www.codedevhub.com/work/op-bot/): Browser game. Design the perfect killing machine. Then send thousands of enemies at it.
+- [Infinite Orbit](https://www.codedevhub.com/work/infinite-orbit/): Browser game. Your music is the level. A rhythm arcade that builds stages from your own songs.
+- [Chino’s Games](https://www.codedevhub.com/work/chinos-games/): Learning app for kids. 17 learning games for ages 3 to 5. Some of them you play by talking.
+- [Mexican Lotería 3D](https://www.codedevhub.com/work/loteria-3d/): Browser game. The classic Mexican Lotería: you against three bots, with the caller’s voice and three difficulty levels.
+- [Intska](https://www.codedevhub.com/work/intska/): Brain-training app. A fast brain-training game. Intska means “wisdom” in Purépecha.
+
+## Guides
+- [How much does a small business website cost in 2026?](https://www.codedevhub.com/guides/website-cost-small-business/)
+- [Google Business Profile checklist: get more calls from Google Maps](https://www.codedevhub.com/guides/google-business-profile-checklist/)
+- [When should a small business switch from spreadsheets to custom software?](https://www.codedevhub.com/guides/custom-software-vs-spreadsheets/)
+- [¿Cuánto cuesta una página web para un negocio en 2026?](https://www.codedevhub.com/guides/cuanto-cuesta-una-pagina-web/)
