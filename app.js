@@ -46,7 +46,7 @@
     const build = () => {
       const d = new FormData(f);
       const needs = d.getAll('need');
-      const lines = [`Hi Edgar${d.get('name') ? `, this is ${d.get('name')}` : ''}${d.get('biz') ? ` from ${d.get('biz')}` : ''}. I found you on CodeDevHub.`];
+      const lines = [`Hi${d.get('name') ? `, this is ${d.get('name')}` : ''}${d.get('biz') ? ` from ${d.get('biz')}` : ''}. I found you on CodeDevHub.`];
       if (needs.length) lines.push(`I need: ${needs.join(', ')}.`);
       if (d.get('details')) lines.push(String(d.get('details')).trim());
       if (d.get('budget')) lines.push(`Budget: ${d.get('budget')}.`);

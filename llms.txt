@@ -1,9 +1,9 @@
 # CodeDevHub
 
-> CodeDevHub is Edgar Robledo, an independent bilingual (English/Spanish) software developer in Lancaster, SC, USA. He builds small-business websites, custom web apps and SaaS, business software (inventory, POS, invoicing), Windows desktop software, AI assistants and games. Contact: (803) 209-7750 (call or text), edgar@codedevhub.com.
+> CodeDevHub is an independent bilingual (English/Spanish) software developer in Lancaster, SC, USA. He builds small-business websites, custom web apps and SaaS, business software (inventory, POS, invoicing), Windows desktop software, AI assistants and games. Contact: (803) 209-7750 (call or text), edgar@codedevhub.com.
 
 ## Services
-- [Web design](https://www.codedevhub.com/services/web-design/): Custom, bilingual small-business websites from $800. Fast, mobile-first, built to get calls, texts and quote requests. Lancaster SC, Rock Hill, Charlotte and remote.
+- [Web design](https://www.codedevhub.com/services/web-design/): Custom, bilingual small-business websites. Fast, mobile-first, built to get calls, texts and quote requests. Lancaster SC, Rock Hill, Charlotte and remote.
 - [Custom web apps](https://www.codedevhub.com/services/custom-web-apps/): Custom web applications and SaaS: logins, payments, directories, portals and subscriptions. Built by the developer behind Nanarii and Cosmic Cassy.
 - [Business software & POS](https://www.codedevhub.com/services/business-software/): Custom inventory, job tracking, invoicing, POS and reporting software for small businesses: web or desktop, in English and Spanish. See real tools I have built.
 - [Desktop software](https://www.codedevhub.com/services/desktop-software/): Custom Windows desktop applications with Electron, SQLite and Python: offline business systems, licensed software products, tools and overlays.
