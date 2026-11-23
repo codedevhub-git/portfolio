@@ -2,6 +2,11 @@
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const ES = document.documentElement.lang === 'es';
+  const ES_MAP = {"/":"/es/","/about/":"/es/nosotros","/contact/":"/es/contacto","/services/":"/es/servicios","/work/":"/es/trabajos","/services/web-design/":"/es/servicio-paginas-web","/services/custom-web-apps/":"/es/servicio-aplicaciones-web","/services/business-software/":"/es/servicio-software-negocios","/services/desktop-software/":"/es/servicio-software-escritorio","/services/ai-automation/":"/es/servicio-ia-automatizacion","/services/game-development/":"/es/servicio-juegos","/services/google-business-profile/":"/es/servicio-google-negocio","/services/website-redesign/":"/es/servicio-rediseno-web","/work/preheim-pools/":"/es/trabajo-preheim-pools","/work/rucker-dentistry/":"/es/trabajo-rucker-dentistry","/work/dreyes-delicias/":"/es/trabajo-dreyes-delicias","/work/honey-and-milk/":"/es/trabajo-honey-and-milk","/work/ramos-elite-scape/":"/es/trabajo-ramos-elite-scape","/work/tienda-mi-pais/":"/es/trabajo-tienda-mi-pais","/work/jaydenz-foundation/":"/es/trabajo-jaydenz-foundation","/work/jaydens-cards-4-cancer/":"/es/trabajo-jaydens-cards-4-cancer","/work/construccion-robledo/":"/es/trabajo-construccion-robledo","/work/yonny-multiservices/":"/es/trabajo-yonny-multiservices","/work/cosmic-cassy/":"/es/trabajo-cosmic-cassy","/work/bakery-concept/":"/es/trabajo-bakery-concept","/work/shoptrack/":"/es/trabajo-shoptrack","/work/sistema-de-gestion/":"/es/trabajo-sistema-de-gestion","/work/trak30/":"/es/trabajo-trak30"};
+
+  // language switch on English pages -> the matching Spanish page
+  if (!ES) { const sw = $('.lang-switch'); const k = location.pathname.endsWith('/') ? location.pathname : location.pathname + '/'; if (sw && ES_MAP[k]) sw.href = ES_MAP[k]; }
 
   // reveal on scroll
   const io = 'IntersectionObserver' in window ? new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' }) : null;
@@ -46,22 +51,22 @@
     const build = () => {
       const d = new FormData(f);
       const needs = d.getAll('need');
-      const lines = [`Hi${d.get('name') ? `, this is ${d.get('name')}` : ''}${d.get('biz') ? ` from ${d.get('biz')}` : ''}. I found you on CodeDevHub.`];
-      if (needs.length) lines.push(`I need: ${needs.join(', ')}.`);
+      const lines = [ES ? `Hola${d.get('name') ? `, soy ${d.get('name')}` : ''}${d.get('biz') ? ` de ${d.get('biz')}` : ''}. Vi su página CodeDevHub.` : `Hi${d.get('name') ? `, this is ${d.get('name')}` : ''}${d.get('biz') ? ` from ${d.get('biz')}` : ''}. I found you on CodeDevHub.`];
+      if (needs.length) lines.push(`${ES ? 'Necesito' : 'I need'}: ${needs.join(', ')}.`);
       if (d.get('details')) lines.push(String(d.get('details')).trim());
-      if (d.get('budget')) lines.push(`Budget: ${d.get('budget')}.`);
-      if (d.get('when')) lines.push(`Timeline: ${d.get('when')}.`);
+      if (d.get('budget')) lines.push(`${ES ? 'Presupuesto' : 'Budget'}: ${d.get('budget')}.`);
+      if (d.get('when')) lines.push(`${ES ? 'Plazo' : 'Timeline'}: ${d.get('when')}.`);
       return lines.join('\n');
     };
     const update = () => {
       const m = build();
       $('#msgPreview').textContent = m;
       $('#sendSms').href = `sms:${PHONE}?&body=${encodeURIComponent(m)}`;
-      $('#sendMail').href = `mailto:${MAIL}?subject=${encodeURIComponent('Project inquiry')}&body=${encodeURIComponent(m)}`;
+      $('#sendMail').href = `mailto:${MAIL}?subject=${encodeURIComponent(ES ? 'Consulta de proyecto' : 'Project inquiry')}&body=${encodeURIComponent(m)}`;
     };
     f.addEventListener('input', update); f.addEventListener('change', update); update();
     $('#copyMsg').addEventListener('click', async (e) => {
-      try { await navigator.clipboard.writeText(build()); e.currentTarget.lastChild.textContent = 'Copied'; } catch { /* clipboard blocked */ }
+      try { await navigator.clipboard.writeText(build()); e.currentTarget.lastChild.textContent = ES ? 'Copiado' : 'Copied'; } catch { /* clipboard blocked */ }
     });
   }
 })();
