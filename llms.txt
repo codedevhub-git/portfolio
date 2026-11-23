@@ -4,7 +4,7 @@
 
 ## Services
 - [Web design](https://www.codedevhub.com/services/web-design/): Custom, bilingual small-business websites. Fast, mobile-first, built to get calls, texts and quote requests. Lancaster SC, Rock Hill, Charlotte and remote.
-- [Custom web apps](https://www.codedevhub.com/services/custom-web-apps/): Custom web applications and SaaS: logins, payments, directories, portals and subscriptions. Built by the developer behind Cosmic Cassy.
+- [Custom web apps](https://www.codedevhub.com/services/custom-web-apps/): Custom web applications and SaaS: logins, payments, directories, portals and subscriptions. Built by the developer behind Nanarii and Cosmic Cassy.
 - [Business software & POS](https://www.codedevhub.com/services/business-software/): Custom inventory, job tracking, invoicing, POS and reporting software for small businesses: web or desktop, in English and Spanish. See real tools I have built.
 - [Desktop software](https://www.codedevhub.com/services/desktop-software/): Custom Windows desktop applications with Electron, SQLite and Python: offline business systems, licensed software products, tools and overlays.
 - [AI & automation](https://www.codedevhub.com/services/ai-automation/): AI chat assistants that capture leads, AI-assisted content and data processing, and private AI that runs on your own PC. Practical AI for small businesses.
@@ -13,6 +13,7 @@
 - [Website redesign](https://www.codedevhub.com/services/website-redesign/): Redesign or rebuild an existing website while keeping your domain, email and search rankings. Faster, mobile-first, bilingual and built to convert.
 
 ## Selected work
+- [Nanarii](https://www.codedevhub.com/work/nanarii/): SaaS platform. A business operating system for Latino small businesses, in Spanish first.
 - [Cosmic Cassy](https://www.codedevhub.com/work/cosmic-cassy/): Nonprofit platform + AI guide. Trusted help for families fighting childhood cancer: checked resources, an AI guide named Cassy, and tools for the people who help them.
 - [Trak30](https://www.codedevhub.com/work/trak30/): Budgeting app (PWA). Brutally honest budgeting. Snap a receipt, see where every dollar went, and catch the leaks.
 - [GYDE](https://www.codedevhub.com/work/gyde/): Education & research platform. One place for students, teachers and researchers: courses, class notes, peer review, discussion and CVs.
